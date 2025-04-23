@@ -12,12 +12,7 @@ export default function NewNavbar(){
             <div className="w-1/12"></div>
             {/* <ul className=" w-6/12 font-bold text-lg flex justify-center space-x-8  text-white mx-5 font-[caudex]">  */}
             <ul className=" w-9/12 font-bold text-sm flex justify-center space-x-8  text-white mx-5 "> 
-                <li className="transition-all duration-200 hover:border-b-2 border-white">
-                    <NavLink
-                     to='/about-us'
-                    className={({ isActive }) => isActive ? "border-b-2 border-white" : "text-white"}>
-                     ABOUT</NavLink>
-                </li>
+               
                 <li className="transition-all duration-200 hover:border-b-2 border-white">
                     <NavLink 
                     to='/swimming-courses'
@@ -72,6 +67,12 @@ export default function NewNavbar(){
                     to='/gallery'
                     className={({ isActive }) => isActive ? "border-b-2 border-white" : "text-white"}>
                     GALLERY</NavLink>
+                </li>
+                <li className="transition-all duration-200 hover:border-b-2 border-white">
+                    <NavLink
+                     to='/about-us'
+                    className={({ isActive }) => isActive ? "border-b-2 border-white" : "text-white"}>
+                     ABOUT</NavLink>
                 </li>
                 <li className="transition-all duration-200 hover:border-b-2 border-white">
                     <NavLink 

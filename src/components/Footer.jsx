@@ -82,7 +82,10 @@ export default function Footer() {
       </footer>
       <footer className="h-20 bg-black flex flex-col items-center-safe justify-center">
       <p className="text-white  text-lg not-first-of-type:font-extrabold">&copy; {new Date().getFullYear()}Waves Swim Academy. All rights reserved.</p>
-      <p className="text-white font-bold">Designed by <a  className='text-blue-700'target="_blank" href="https://siddharthanbumani.in/">Siddharth Anbumani</a></p>
+      <div className="flex space-x-2">
+        <p className="text-white font-bold">Designed and Developed by </p>
+        <a className='text-blue-700 font-bold' target="_blank" href="https://siddharthanbumani.in/">Siddharth Anbumani</a>
+      </div>
       </footer>
       </div>
     );
