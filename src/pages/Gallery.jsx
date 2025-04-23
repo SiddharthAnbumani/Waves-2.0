@@ -9,10 +9,13 @@ export default function Gallery(){
        <Helmet>
           <title>Gallery | Waves Swim Academy</title>
         </Helmet>
-        <PageBannerPlusText 
+        <PageBannerPlusText
         img='gallery_bg.avif'
-        bg=""
-        bannerHeight="h-200"
+        text='WAVES SWIM ACADEMY - A VISUAL CHRONICLE'/>
+        <PageBannerPlusText 
+        img='racing.avif'
+        bg="bg-black/20"
+        bannerHeight="h-150"
         text={
           <div className="flex space-x-4">
            <Card 
