@@ -60,7 +60,7 @@ export default function NativeTabs(){
         <TabsContent value="founders" className='w-screen text-[#005A9C] rounded-md flex justify-center'>
         <div className="w-[90%] h-[90%]">
             <PageBannerPlusText
-            img='about.avif'
+            img='ripple_1.avif'
             bannerHeight="h-700"
             text={
               <div>
@@ -202,20 +202,126 @@ export default function NativeTabs(){
             }/>
           </div>
         </TabsContent>
+
+
         <TabsContent value="team" className='w-screen text-[#005A9C] rounded-md flex justify-center'>
         <div className="w-[90%] h-[90%]">
             <PageBannerPlusText
-            img='map.avif'
-            bg=''
-            bannerHeight="h-150"
+            img='ripple_1.avif'
+          
+            bannerHeight="h-750"
             text={
-              <div className="flex justify-center">
-                <ScrollArea className="h-[600px] w-[85%] rounded-md border p-4 my-10">
-                  <h1 className="font-extrabold text-black text-center my-10">MEET THE TEAM</h1>
-                <div className="text-lg text-black text-center px-4 py-4 w-full">
-                  
+              <div className="flex flex-col justify-center items-center">
+                <h1 className="font-bold text-4xl my-10 pt-20">OUR COACHES AND TRAINERS</h1>
+
+                <div className="grid grid-cols-2 space-x-10 space-y-10">
+                  <div className="bg-black/40 backdrop-blur-md w-[500px] py-5 px-2 rounded-xl">
+                    <div className="flex flex-col items-center mt-5 p-5">
+                      <img src="profile.avif" alt="" className="h-60 rounded-md" />
+                      <h1 className="text-2xl my-2">Enter Name here</h1>
+                      <h1 className="text-xl font-semibold">Designation, bracnch</h1>
+                    </div>
+                    <p className="text-lg text-justify font-light p-4">
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit. At praesentium aut voluptatum. 
+                      Ducimus, quam. Rerum optio quae eum, necessitatibus assumenda facere sint saepe, nulla, 
+                      magnam soluta aperiam voluptatum. Tempora, explicabo.
+                      labore itaque et rem reprehenderit, nisi vitae suscipit enim a.
+                    </p>
+                  </div>
+                  <div className="bg-black/40 backdrop-blur-md w-[500px] py-5 px-2 rounded-xl">
+                    <div className="flex flex-col items-center mt-5 p-5">
+                      <img src="profile.avif" alt="" className="h-60 rounded-md" />
+                      <h1 className="text-2xl my-2">Enter Name here</h1>
+                      <h1 className="text-xl font-semibold">Designation, bracnch</h1>
+                    </div>
+                    <p className="text-lg text-justify font-light p-4">
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit. At praesentium aut voluptatum. 
+                      Ducimus, quam. Rerum optio quae eum, necessitatibus assumenda facere sint saepe, nulla, 
+                      magnam soluta aperiam voluptatum. Tempora, explicabo.
+                      labore itaque et rem reprehenderit, nisi vitae suscipit enim a.
+                    </p>
+                  </div>
+                  <div className="bg-black/40 backdrop-blur-md w-[500px] py-5 px-2 rounded-xl">
+                    <div className="flex flex-col items-center mt-5 p-5">
+                      <img src="profile.avif" alt="" className="h-60 rounded-md" />
+                      <h1 className="text-2xl my-2">Enter Name here</h1>
+                      <h1 className="text-xl font-semibold">Designation, bracnch</h1>
+                    </div>
+                    <p className="text-lg text-justify font-light p-4">
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit. At praesentium aut voluptatum. 
+                      Ducimus, quam. Rerum optio quae eum, necessitatibus assumenda facere sint saepe, nulla, 
+                      magnam soluta aperiam voluptatum. Tempora, explicabo.
+                      labore itaque et rem reprehenderit, nisi vitae suscipit enim a.
+                    </p>
+                  </div>
+                  <div className="bg-black/40 backdrop-blur-md w-[500px] py-5 px-2 rounded-xl">
+                    <div className="flex flex-col items-center mt-5 p-5">
+                      <img src="profile.avif" alt="" className="h-60 rounded-md" />
+                      <h1 className="text-2xl my-2">Enter Name here</h1>
+                      <h1 className="text-xl font-semibold">Designation, bracnch</h1>
+                    </div>
+                    <p className="text-lg text-justify font-light p-4">
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit. At praesentium aut voluptatum. 
+                      Ducimus, quam. Rerum optio quae eum, necessitatibus assumenda facere sint saepe, nulla, 
+                      magnam soluta aperiam voluptatum. Tempora, explicabo.
+                      labore itaque et rem reprehenderit, nisi vitae suscipit enim a.
+                    </p>
+                  </div>
+                  <div className="bg-black/40 backdrop-blur-md w-[500px] py-5 px-2 rounded-xl">
+                    <div className="flex flex-col items-center mt-5 p-5">
+                      <img src="profile.avif" alt="" className="h-60 rounded-md" />
+                      <h1 className="text-2xl my-2">Enter Name here</h1>
+                      <h1 className="text-xl font-semibold">Designation, bracnch</h1>
+                    </div>
+                    <p className="text-lg text-justify font-light p-4">
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit. At praesentium aut voluptatum. 
+                      Ducimus, quam. Rerum optio quae eum, necessitatibus assumenda facere sint saepe, nulla, 
+                      magnam soluta aperiam voluptatum. Tempora, explicabo.
+                      labore itaque et rem reprehenderit, nisi vitae suscipit enim a.
+                    </p>
+                  </div>
+                  <div className="bg-black/40 backdrop-blur-md w-[500px] py-5 px-2 rounded-xl">
+                    <div className="flex flex-col items-center mt-5 p-5">
+                      <img src="profile.avif" alt="" className="h-60 rounded-md" />
+                      <h1 className="text-2xl my-2">Enter Name here</h1>
+                      <h1 className="text-xl font-semibold">Designation, bracnch</h1>
+                    </div>
+                    <p className="text-lg text-justify font-light p-4">
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit. At praesentium aut voluptatum. 
+                      Ducimus, quam. Rerum optio quae eum, necessitatibus assumenda facere sint saepe, nulla, 
+                      magnam soluta aperiam voluptatum. Tempora, explicabo.
+                      labore itaque et rem reprehenderit, nisi vitae suscipit enim a.
+                    </p>
+                  </div>
+                  <div className="bg-black/40 backdrop-blur-md w-[500px] py-5 px-2 rounded-xl">
+                    <div className="flex flex-col items-center mt-5 p-5">
+                      <img src="profile.avif" alt="" className="h-60 rounded-md" />
+                      <h1 className="text-2xl my-2">Enter Name here</h1>
+                      <h1 className="text-xl font-semibold">Designation, bracnch</h1>
+                    </div>
+                    <p className="text-lg text-justify font-light p-4">
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit. At praesentium aut voluptatum. 
+                      Ducimus, quam. Rerum optio quae eum, necessitatibus assumenda facere sint saepe, nulla, 
+                      magnam soluta aperiam voluptatum. Tempora, explicabo.
+                      labore itaque et rem reprehenderit, nisi vitae suscipit enim a.
+                    </p>
+                  </div>
+                  <div className="bg-black/40 backdrop-blur-md w-[500px] py-5 px-2 rounded-xl">
+                    <div className="flex flex-col items-center mt-5 p-5">
+                      <img src="profile.avif" alt="" className="h-60 rounded-md" />
+                      <h1 className="text-2xl my-2">Enter Name here</h1>
+                      <h1 className="text-xl font-semibold">Designation, bracnch</h1>
+                    </div>
+                    <p className="text-lg text-justify font-light p-4">
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit. At praesentium aut voluptatum. 
+                      Ducimus, quam. Rerum optio quae eum, necessitatibus assumenda facere sint saepe, nulla, 
+                      magnam soluta aperiam voluptatum. Tempora, explicabo.
+                      labore itaque et rem reprehenderit, nisi vitae suscipit enim a.
+                    </p>
+                  </div>
+              
+              
                 </div>
-            </ScrollArea>
               </div>
             }/>
           </div>
