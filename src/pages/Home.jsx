@@ -128,21 +128,22 @@ export default function Home(){
 
                 <div className="w-screen flex items-center justify-center space-x-5">
                     <div className="">
-                    <Map/>
+                    <Map/>         
                     </div>
                     <div className="flex flex-col justify-center items-center space-y-4 w-[600px] h-[700px]"> 
-                        <div className="h-[42%] w-[70%] bg-black/80 backdrop-blur-2xl rounded-4xl">
+
+                        <div className=" w-[80%] bg-[url('branch.avif')] bg-black/10 backdrop-blur-2xl rounded-lg py-4 ">
                             <div className="flex flex-col justify-center items-center space-y-2 py-6 px-3">
-                            <img src="/waves~pallavaram.webp" alt="" className="h-40 rounded-lg"/>
-                            <p className="text-lg font-light text-white ">WAVES SWIM ACADEMY ~ ZAMIN PALLAVARAM</p>
-                            <NavLink className='bg-blue-800 px-10 py-1 text-lg font-bold text-white rounded-md transform transform-all duration-150 hover:scale-110' to='/pallavaram'>Visit </NavLink>
+                            <img src="/waves~pallavaram.webp" alt="" className="h-40 rounded-sm"/>
+                            <p className="text-lg font-semibold text-white ">WAVES SWIM ACADEMY ~ ZAMIN PALLAVARAM</p>
+                            <NavLink className='bg-white px-10 py-1 text-lg font-bold  text-black rounded-md transform transform-all duration-150 hover:scale-110' to='/pallavaram'>View branch</NavLink>
                             </div>
                         </div>
-                        <div className="h-[42%] w-[70%] bg-black/80 backdrop-blur-2xl rounded-4xl">
+                        <div className="w-[80%] bg-[url('branch.avif')] backdrop-blur-2xl rounded-lg py-4 ">
                             <div className="flex flex-col justify-center items-center space-y-2 py-6 px-3">
                             <img src="/waves~incor.jpg" alt="" className="h-40 rounded-lg"/>
-                            <p className="text-lg font-light text-white ">WAVES SWIM ACADEMY ~ INCOR KELAMBAKKAM</p>
-                            <NavLink className='bg-blue-800 px-10 py-1 text-lg font-bold text-white rounded-md transform transform-all duration-150 hover:scale-110' to='/incor'>Visit </NavLink>
+                            <p className="text-lg font-semibold text-white ">WAVES SWIM ACADEMY ~ INCOR KELAMBAKKAM</p>
+                            <NavLink className='bg-white px-10 py-1 text-lg font-bold  text-black rounded-md transform transform-all duration-150 hover:scale-110' to='/incor'>View branch </NavLink>
                             </div>
                         </div>
                        
@@ -188,6 +189,55 @@ export default function Home(){
                     </ul>
                     </div>
             </div> */}
+            <PageBannerPlusText
+            img='gallery_bg.avif'
+            bannerHeight="h-155"
+            bg="bg-black/10"
+            text={
+                <div className="flex flex-col items-center">
+                    <h1 className="my-3">WHAT DO THEY SAY ABOUT US?</h1>
+                    <p className="text-xl font-light italic mb-10">TESTIMONIALS</p>
+                    <div className=" flex space-x-10">
+                        <div className="bg-[url('ripple_1.avif')] w-[310px] h-[400px] flex justify-center items-center rounded-3xl">
+                            <div className="w-[90%] h-[90%] bg-white/10 backdrop-blur-lg space-y-2 py-2 px-2 rounded-xl">
+                            <p className="text-lg px-3">SWIMMER'S TESTIMONIAL</p>
+                            <p className="text-lg  px-3 font-light">"Training at Waves Academy has transformed not only my skills but my confidence as an athlete. 
+                                The coaching here matches international standards, and the environment pushes you to be your best 
+                                every single day."</p>
+                            <p className="text-sm px-3"> ~ Arjun M, National Level Swimmer</p>
+                            </div>
+                        </div>
+                        <div className="bg-[url('ripple_1.avif')] w-[310px] h-[400px] flex justify-center items-center ">
+                            <div className="w-[90%] h-[90%] bg-white/10 backdrop-blur-lg space-y-2 py-2 px-2">
+                            <p className="text-lg px-3">SWIMMER'S TESTIMONIAL</p>
+                            <p className="text-lg  px-3 font-light">"Training at Waves Academy has transformed not only my skills but my confidence as an athlete. 
+                                The coaching here matches international standards, and the environment pushes you to be your best 
+                                every single day."</p>
+                            <p className="text-sm px-3"> ~ Arjun M, National Level Swimmer</p>
+                            </div>
+                        </div>
+                        <div className="bg-[url('ripple_1.avif')] w-[310px] h-[400px] flex justify-center items-center ">
+                            <div className="w-[90%] h-[90%] bg-white/10 backdrop-blur-lg space-y-2 py-2 px-2">
+                            <p className="text-lg px-3">SWIMMER'S TESTIMONIAL</p>
+                            <p className="text-lg  px-3 font-light">"Training at Waves Academy has transformed not only my skills but my confidence as an athlete. 
+                                The coaching here matches international standards, and the environment pushes you to be your best 
+                                every single day."</p>
+                            <p className="text-sm px-3"> ~ Arjun M, National Level Swimmer</p>
+                            </div>
+                        </div>
+                        <div className="bg-[url('ripple_1.avif')] w-[310px] h-[400px] flex justify-center items-center ">
+                            <div className="w-[90%] h-[90%] bg-white/10 backdrop-blur-lg space-y-2 py-2 px-2">
+                            <p className="text-lg px-3">SWIMMER'S TESTIMONIAL</p>
+                            <p className="text-lg  px-3 font-light">"Training at Waves Academy has transformed not only my skills but my confidence as an athlete. 
+                                The coaching here matches international standards, and the environment pushes you to be your best 
+                                every single day."</p>
+                            <p className="text-sm px-3"> ~ Arjun M, National Level Swimmer</p>
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>
+            }/>
             <Footer/>
         </div>
     )
