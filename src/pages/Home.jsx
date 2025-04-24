@@ -199,7 +199,7 @@ export default function Home(){
                     <p className="text-xl font-light italic mb-10">TESTIMONIALS</p>
                     <div className=" flex space-x-10">
                         <div className="bg-[url('ripple_1.avif')] w-[310px] h-[400px] flex justify-center items-center rounded-3xl">
-                            <div className="w-[90%] h-[90%] bg-white/10 backdrop-blur-lg space-y-2 py-2 px-2 rounded-xl">
+                            <div className="w-[90%] h-[90%] bg-white/10 backdrop-blur-lg space-y-2 py-2 px-2 rounded-lg">
                             <p className="text-lg px-3">SWIMMER'S TESTIMONIAL</p>
                             <p className="text-lg  px-3 font-light">"Training at Waves Academy has transformed not only my skills but my confidence as an athlete. 
                                 The coaching here matches international standards, and the environment pushes you to be your best 
@@ -207,8 +207,8 @@ export default function Home(){
                             <p className="text-sm px-3"> ~ Arjun M, National Level Swimmer</p>
                             </div>
                         </div>
-                        <div className="bg-[url('ripple_1.avif')] w-[310px] h-[400px] flex justify-center items-center ">
-                            <div className="w-[90%] h-[90%] bg-white/10 backdrop-blur-lg space-y-2 py-2 px-2">
+                        <div className="bg-[url('ripple_1.avif')] w-[310px] h-[400px] flex justify-center items-center rounded-3xl">
+                            <div className="w-[90%] h-[90%] bg-white/10 backdrop-blur-lg space-y-2 py-2 px-2 rounded-lg">
                             <p className="text-lg px-3">SWIMMER'S TESTIMONIAL</p>
                             <p className="text-lg  px-3 font-light">"Training at Waves Academy has transformed not only my skills but my confidence as an athlete. 
                                 The coaching here matches international standards, and the environment pushes you to be your best 
@@ -216,8 +216,8 @@ export default function Home(){
                             <p className="text-sm px-3"> ~ Arjun M, National Level Swimmer</p>
                             </div>
                         </div>
-                        <div className="bg-[url('ripple_1.avif')] w-[310px] h-[400px] flex justify-center items-center ">
-                            <div className="w-[90%] h-[90%] bg-white/10 backdrop-blur-lg space-y-2 py-2 px-2">
+                        <div className="bg-[url('ripple_1.avif')] w-[310px] h-[400px] flex justify-center items-center rounded-3xl">
+                            <div className="w-[90%] h-[90%] bg-white/10 backdrop-blur-lg space-y-2 py-2 px-2 rounded-lg">
                             <p className="text-lg px-3">SWIMMER'S TESTIMONIAL</p>
                             <p className="text-lg  px-3 font-light">"Training at Waves Academy has transformed not only my skills but my confidence as an athlete. 
                                 The coaching here matches international standards, and the environment pushes you to be your best 
@@ -225,8 +225,8 @@ export default function Home(){
                             <p className="text-sm px-3"> ~ Arjun M, National Level Swimmer</p>
                             </div>
                         </div>
-                        <div className="bg-[url('ripple_1.avif')] w-[310px] h-[400px] flex justify-center items-center ">
-                            <div className="w-[90%] h-[90%] bg-white/10 backdrop-blur-lg space-y-2 py-2 px-2">
+                        <div className="bg-[url('ripple_1.avif')] w-[310px] h-[400px] flex justify-center items-center rounded-3xl">
+                            <div className="w-[90%] h-[90%] bg-white/10 backdrop-blur-lg space-y-2 py-2 px-2  rounded-lg">
                             <p className="text-lg px-3">SWIMMER'S TESTIMONIAL</p>
                             <p className="text-lg  px-3 font-light">"Training at Waves Academy has transformed not only my skills but my confidence as an athlete. 
                                 The coaching here matches international standards, and the environment pushes you to be your best 

@@ -60,7 +60,7 @@ export default function NativeTabs(){
         <TabsContent value="founders" className='w-screen text-[#005A9C] rounded-md flex justify-center'>
         <div className="w-[90%] h-[90%]">
             <PageBannerPlusText
-            img='ripple_1.avif'
+            img='contact.jpg'
             bannerHeight="h-700"
             text={
               <div>
@@ -74,8 +74,31 @@ export default function NativeTabs(){
                     <p className="text-2xl font-semibold my-2 text-white/90"> Mr. ANBUMANI AYYAVOO</p>
                   </div>
                   <div className=" space-y-3 w-[90%] my-5 text-white/80">
+                  <p className="text-xl text-justify font-light">A visionary dedicated to raising the standards of swimming in Chennai, 
+                    our academy was born out of a personal journey and a powerful mission. It all began when his daughter emerged 
+                    as a National Medalist — a moment of pride that ignited a dream. Witnessing the impact of world-class training 
+                    on her success, Mr. Anbumani was inspired to make that same level of excellence accessible to every aspiring swimmer.
+                  </p>
+                  <p className="text-justify text-lg font-light">
+                    Determined to bridge the gap, he established this academy with the goal of delivering American Standards in swimming coaching, 
+                    right here in Chennai. Though he is no longer with us to witness the full impact of his vision, his spirit and passion continue
+                    to guide everything we do. Today, we proudly carry forward his legacy — committed to nurturing talent and transforming the
+                    future of swimming in our city.
+                  </p>
+                  </div>
+                </div> 
+
+                <div className="bg-black/20 backdrop-blur-md rounded-xl w-[80%] text-black py-10 px-5 flex flex-col items-center">
+                  <h1 className="my-3 text-white/90">
+                    Our Co-Founder & Managing Director
+                  </h1>
+                  <div className="flex flex-col items-center">
+                    <img src="sunanthini.jpeg" alt="" className=" h-80"/>
+                    <p className="text-2xl font-semibold my-2 text-white/90"> Mrs. SUNANTHINI ANBUMANI </p>
+                  </div>
+                  <div className=" space-y-3 w-[90%] my-5 text-white/80">
                   <p className="text-xl text-justify font-light">An accomplished architect turned visionary entrepreneur, 
-                    Mrs. Mrs. Sunanthini Anbumani has been the backbone of the academy since day one. As the wife and closest partner of the founder,
+                    Mrs. Sunanthini Anbumani has been the backbone of the academy since day one. As the wife and closest partner of the founder,
                     she walked every step of the journey by his side, sharing not just the vision, but the determination to bring it to life.   
                   </p>
                   <p className="text-justify text-lg font-light">
@@ -89,34 +112,11 @@ export default function NativeTabs(){
 
                 <div className="bg-black/20 backdrop-blur-md rounded-xl w-[80%] text-black py-10 px-5 flex flex-col items-center">
                   <h1 className="my-3 text-white/90">
-                  Our Co-Founder & Managing Director
-                  </h1>
-                  <div className="flex flex-col items-center">
-                    <img src="sunanthini.jpeg" alt="" className=" h-80"/>
-                    <p className="text-2xl font-semibold my-2 text-white/90"> Mrs. SUNANTHINI ANBUMANI </p>
-                  </div>
-                  <div className=" space-y-3 w-[90%] my-5 text-white/80">
-                  <p className="text-xl text-justify font-light">A visionary dedicated to raising the standards of swimming in Chennai, 
-                    our academy was born out of a personal journey and a powerful mission. It all began when his daughter emerged 
-                    as a National Medalist — a moment of pride that ignited a dream. Witnessing the impact of world-class training 
-                    on her success, Mr. Anbumani was inspired to make that same level of excellence accessible to every aspiring swimmer.
-                  </p>
-                  <p className="text-justify text-lg font-light">
-                  Determined to bridge the gap, he established this academy with the goal of delivering American Standards in swimming coaching, 
-                  right here in Chennai. Though he is no longer with us to witness the full impact of his vision, his spirit and passion continue
-                   to guide everything we do. Today, we proudly carry forward his legacy — committed to nurturing talent and transforming the
-                    future of swimming in our city.
-                  </p>
-                  </div>
-                </div> 
-
-                <div className="bg-black/20 backdrop-blur-md rounded-xl w-[80%] text-black py-10 px-5 flex flex-col items-center">
-                  <h1 className="my-3 text-white/90">
                     OUR MENTOR 
                   </h1>
                   <div className="flex flex-col items-center">
                     <img src="kaavya.jpeg" alt="" className=" h-80 rounded-2xl"/>
-                    <p className="text-2xl font-semibold my-2 text-white/90 "> Dr.KAAVYASHRI ANBUMANI </p>
+                    <p className="text-2xl font-semibold my-2 text-white/90 ">KAAVYASHRI ANBUMANI </p>
                   </div>
                   <div className=" space-y-3 w-[90%] my-5 text-white/80">
                   <p className="text-xl text-justify font-light">
