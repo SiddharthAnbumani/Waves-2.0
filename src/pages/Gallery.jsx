@@ -2,6 +2,7 @@ import PageBannerPlusText from "../components/PageBannerPlusText"
 import { Helmet } from "react-helmet"
 import Footer from "../components/Footer"
 import Card from "../components/HomeComponents/Card"
+import BgCard from "../components/BgCard"
 
 export default function Gallery(){
   return (
@@ -14,42 +15,28 @@ export default function Gallery(){
          bg="bg-black/30 backdrop-blur-md"
         text='WAVES SWIM ACADEMY - A VISUAL CHRONICLE'/>
         <PageBannerPlusText 
-        img='racing.avif'
-        bg="bg-black/20"
+        img='contact_1.jpg'
+        bg="bg-black/30 backdrop-blur-2xl"
         bannerHeight="h-150"
         text={
           <div className="flex space-x-4">
-           <Card 
-           width="w-80"
-           title='FOUNDATION IMAGES'
-           nav="/gallery-foundation"
-           btnClass="bg-red-600"
-           btnText="VIEW"
+           <BgCard
+           text='FOUNDATION IMAGES'
+           nav='/gallery-foundation'
            />
+           <BgCard
+           text='EVENT & CELEBRATIONS'
+           nav='/gallery-celebrations'/>
 
-           <Card 
-           width="w-80"
-          nav="/gallery-athletes"
-           btnClass="bg-red-600"
-           title='OUR CHAMPIONS'
-           btnText="VIEW"
+           <BgCard
+           text='OUR CHAMPIONS'
+           nav='/gallery-athletes'
            />
-
-           <Card 
-            nav="/gallery-celebrations"
-           btnClass="bg-red-600"
-           width="w-80"
-           title='EVENT AND CELEBRATIONS'
-           btnText="VIEW"
+           <BgCard
+           text='TRAINING & PRACTICE'
+           nav='/gallery-training'
            />
-
-           <Card 
-          nav="/gallery-training"
-           btnClass="bg-red-600"
-           width="w-80"
-           title='TRANING AND PRACTICE'
-           btnText="VIEW"
-           />
+           
           </div>
         }/>
         <Footer/>

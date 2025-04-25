@@ -105,7 +105,7 @@ export default function ContactUs() {
                     ></textarea>
                   </div>
 
-                  <button className="bg-black mt-6 text-lg rounded-lg py-2 px-10 text-white hover:scale-110 transition-all duration-150 font-semibold">
+                  <button className="bg-white mt-6 text-lg rounded-lg py-2 px-10 text-[#041E42] border-2 shadow border-[#041E42] hover:scale-110 transition-all duration-150 font-semibold">
                     Send Message
                   </button>
                 </div>

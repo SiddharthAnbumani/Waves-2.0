@@ -20,6 +20,7 @@ import FoundationImages from './pages/galleryPages/FoundationImages'
 import CelebrationImages from './pages/galleryPages/CelebrationImages'
 import { Train } from 'lucide-react'
 import TrainingImages from './pages/galleryPages/TrainingImages'
+import Canvas from './pages/Canvas'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -46,6 +47,7 @@ function App() {
 
       <Route path='/pallavaram' element={<Pallavaram/>}/>
       <Route path='/incor' element={<Incor/>}/>
+      <Route path='/canvas' element={<Canvas/>}/>
 
       <Route path='/courses/learn-to-swim' element={<LearnToSwim/>}/>
       <Route path='/courses/beginner' element={<Beginner/>}/>
