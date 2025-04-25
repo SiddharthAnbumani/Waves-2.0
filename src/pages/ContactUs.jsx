@@ -13,13 +13,14 @@ export default function ContactUs(){
                 <h1>CONTACT US</h1>
               </div>
             }/>
+
              <PageBannerPlusText 
              bg='bg-white'
-              bannerHeight="h-210"
+              bannerHeight="h-300"
               text={
-                <div className="w-screen flex justify-start mx-20">
+                <div className="w-screen flex justify-evenly mx-20 bg-red-300 py-20">
                   <div className="relative flex justify-center">
-                    <img src="contact_1.jpg" alt="" className="h-200"/>
+                    <img src="contact_1.jpg" alt="" className="h-225"/>
                     <div className="absolute inset-0 bg-black/10 backdrop-blur-sm  flex flex-col justify-center items-center px-10">
                       <h1 className="font-extrabold">CONTACT US</h1>
                       <div className="bg-black/70 px-4 py-2 rounded-sm flex flex-col items-center justify-center">
@@ -50,9 +51,26 @@ export default function ContactUs(){
                     </div>
                   </div>
 
-                  <div className="flex items-end">
-                    <Map/>
+                  <div className="flex flex-col justify-between items-center bg-blue-300 space-y-10 ">
+                    <div className="flex flex-col items-center bg-red-400 justify-center w-full h-6/12">
+                      <h1>SEND US A MESSAGE</h1>
+                      <div className="flex px-5">
+                        <div className="flex flex-col space-x-10 space-y-2 ">
+                          <input type="text" name="" id="" className="bg-white w-[250px] rounded-md" />
+                          <input type="text" name="" id="" className="bg-white w-[250px] rounded-md" />
+                          <input type="text" name="" id="" className="bg-white w-[250px] rounded-md" />
+                        </div>
+                        <div className="">
+                          <textarea name="" id="" cols='20' rows='3' className="bg-white rounded-md"></textarea>
+                          
+                        </div>
+                      </div>
+                    </div>
+                    <div className="h-6/12 w-full">
+                      <Map/>
+                    </div>
                   </div>
+
                   </div>
          }/>
             <Footer/>
