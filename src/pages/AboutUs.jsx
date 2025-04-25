@@ -8,7 +8,7 @@ export default function AboutUs() {
         <div className="">
             <PageBannerPlusText
             img="contact.jpg"
-        bg="bg-black/30 backdrop-blur-md"
+            bg="bg-black/30 backdrop-blur-md"
             text='WHO ARE WE?'/>
             <div>
                 <Tabs/>

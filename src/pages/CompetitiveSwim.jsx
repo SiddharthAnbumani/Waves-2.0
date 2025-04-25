@@ -44,11 +44,13 @@ export default function CompetetiveSwim(){
       <PageBannerPlusText 
       img='map.avif'
       bg='bg-white'
-      bannerHeight="h-350"
+      bannerHeight="h-400"
       text={
-          <div className="text-black flex flex-col items-center">
-            <div className="w-[80%] flex flex-col items-center space-y-2">
-              <h1 className="text-4xl  font-extrabold my-10">HOW DO WE TURN BEGINNER INTO AN ATHLETE?</h1>
+        <div className="w-full flex justify-center items-center">
+
+          <div className="text-black flex flex-col items-center w-[90%] bg-white border-2 rounded-4xl shadow-lg">
+            <div className="w-[80%] flex flex-col items-center space-y-2 ">
+              <h1 className="text-4xl  font-extrabold my-10">HOW DO WE TURN A BEGINNER INTO AN ATHLETE?</h1>
               <h1 className="text-2xl  font-semibold my-2">WE EXPEXT THE SWIMMERS TO HAVE ALL THE GRADUATION SKILLS OF STROKE SCHOOL TO PURSE</h1>
               <p className="font-light text-xl">
               At Waves Swim Academy, every champion starts with a single stroke. Our training philosophy is grounded in a 
@@ -61,10 +63,10 @@ export default function CompetetiveSwim(){
               </p>
           </div>
           <div className="w-[80%] my-5"> 
-          <div className="text-black my-2 flex flex-col space-y-3">
+          <div className="text-black my-2 flex flex-col space-y-3 ">
             <p className="font-extrabold text-xl">HERE'S HOW WE MAKE IT HAPPEN,</p>
-            <div className="font-light">
-              <p className="text-xl mx-4 font-semibold">
+            <div className="font-light bg-gray-100 py-4 px-3 rounded-xl">
+              <p className="text-xl mx-4 my-2 font-semibold text-[#041E42]">
                 THE STAGE OF PRELIMINARY SPORT PREPARATION OBJECTIVES
               </p>
               <ul className="text-xl list-inside list-disc mx-4">
@@ -80,8 +82,8 @@ export default function CompetetiveSwim(){
               </ul>
             </div>
 
-            <div className="font-light">
-              <p className="text-xl mx-4 font-semibold">
+            <div className="font-light bg-gray-100 py-4 px-3 rounded-xl">
+              <p className="text-xl mx-4 my-2 font-semibold text-[#041E42]">
               THE STAGE OF BASIC TRAINING OBJECTIVES
               </p>
               <ul className="text-xl list-inside list-disc mx-4">
@@ -100,8 +102,8 @@ export default function CompetetiveSwim(){
               </ul>
             </div>
 
-            <div className="font-light">
-              <p className="text-xl mx-4 font-semibold">
+            <div className="font-light bg-gray-100 py-4 px-3 rounded-xl">
+              <p className="text-xl mx-4 my-2 font-semibold text-[#041E42]">
               THE STAGE OF SPECIALIZATION OBJECTIVES
               </p>
               <ul className="text-xl list-inside list-disc mx-4">
@@ -117,8 +119,8 @@ export default function CompetetiveSwim(){
               </ul>
             </div>
 
-            <div className="font-light">
-              <p className="text-xl mx-4 font-semibold">
+            <div className="font-light bg-gray-100 py-4 px-3 rounded-xl">
+              <p className="text-xl mx-4 font-semibold text-[#041E42] my-2">
               THE STAGE OF EXCELLENCE OBJECTIVES
               </p>
               <ul className="text-xl list-inside list-disc mx-4">
@@ -139,15 +141,17 @@ export default function CompetetiveSwim(){
 
           </div>
           </div>
-          <div className="w-[80%] my-5">
-            <div className="grid grid-cols-4 space-x-2">
-              <img src="/learn.jpeg" alt="" className="h-50 rounded-md"/>
-              <img src="/learn.jpeg" alt="" className="h-50 rounded-md"/>
-              <img src="/learn.jpeg" alt="" className="h-50 rounded-md"/>
-              <img src="/learn.jpeg" alt="" className="h-50 rounded-md"/>
+          <div className="w-[80%] my-5 py-10">
+            <div className="grid grid-cols-4 space-x-5">
+              <img src="/learn.jpeg" alt="" className="h-45 rounded-md"/>
+              <img src="/learn.jpeg" alt="" className="h-45 rounded-md"/>
+              <img src="/learn.jpeg" alt="" className="h-45 rounded-md"/>
+              <img src="/learn.jpeg" alt="" className="h-45 rounded-md"/>
+             
             </div>
           </div>
 
+          </div>
           </div>
 
 

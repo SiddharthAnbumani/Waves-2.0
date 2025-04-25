@@ -119,7 +119,7 @@ export default function Home(){
              <PageBannerPlusText
              img='map.avif'
              bg=""
-             bannerHeight="h-250"
+             bannerHeight="h-200"
              text={
                 <div className="my-10 flex flex-col items-center justify-center space-y-5 text-black">
                 <h1 className="text-5xl font-extrabold text-center">Where We Work</h1>
@@ -133,7 +133,7 @@ export default function Home(){
                     <div className="">
                     <Map/>         
                     </div>
-                    <div className="flex flex-col justify-center items-center space-y-4 w-[600px] h-[700px]"> 
+                    {/* <div className="flex flex-col justify-center items-center space-y-4 w-[600px] h-[700px]"> 
 
                         <div className=" w-[80%] bg-[url('branch.avif')] bg-black/10 backdrop-blur-2xl rounded-lg py-4 ">
                             <div className="flex flex-col justify-center items-center space-y-2 py-6 px-3">
@@ -151,7 +151,7 @@ export default function Home(){
                         </div>
                        
 
-                    </div>
+                    </div> */}
                 </div>
              </div>
              }

@@ -32,7 +32,7 @@
 export default function StrokeDisplay({ freestyle, backstroke, butterfly, breaststroke }) {
     return (
       <div className="flex justify-center mt-4">
-        <div className="inline-flex space-x-4 py-1 px-4 bg-black/40 backdrop-blur-3xl rounded-xl">
+        <div className="inline-flex space-x-4 py-1 px-4 backdrop-blur-3xl rounded-xl">
   
           {freestyle && (
             <div className="flex flex-col items-center py-6 px-6">

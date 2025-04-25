@@ -1,10 +1,14 @@
 import Footer from "../components/Footer"
 import PageBannerPlusText from "../components/PageBannerPlusText"
 import Map from "../components/Map"
+import { Helmet } from "react-helmet"
 
 export default function ContactUs() {
   return (
     <div className="">
+      <Helmet>
+                <title>Contact | Waves Swim Academy</title>
+            </Helmet>
       <PageBannerPlusText
         img="contact.jpg"
         bg="bg-black/30 backdrop-blur-md"
@@ -16,7 +20,7 @@ export default function ContactUs() {
       />
 
       <PageBannerPlusText
-      bg="bg-blue-100"
+      bg="bg-gray-100"
       // img='contact_bg.avif'
         bannerHeight="h-300"
         text={
@@ -101,7 +105,7 @@ export default function ContactUs() {
                     ></textarea>
                   </div>
 
-                  <button className="bg-blue-700 mt-6 text-lg rounded-lg py-2 px-10 text-white hover:scale-110 transition-all duration-150 font-semibold">
+                  <button className="bg-black mt-6 text-lg rounded-lg py-2 px-10 text-white hover:scale-110 transition-all duration-150 font-semibold">
                     Send Message
                   </button>
                 </div>

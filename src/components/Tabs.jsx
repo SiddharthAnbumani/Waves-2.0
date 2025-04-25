@@ -168,7 +168,7 @@ export default function NativeTabs(){
               <div className="flex justify-center">
                 <ScrollArea className="h-[600px] w-[85%] rounded-md border p-4 my-10">
                   <h1 className="font-extrabold text-black text-center my-10">OUR POLICIES</h1>
-                <div className="text-lg text-black text-center px-4 py-4 w-full">
+                <div className="text-lg text-black text-justify px-8 py-4 w-full">
                     Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eum ipsum quasi error delectus eos expedita laborum numquam impedit est asperiores amet, tempore perferendis vero odit illo totam. Exercitationem, unde consequatur.
                     Asperiores reprehenderit quisquam animi tenetur vel mollitia, nam omnis delectus ea autem enim sed molestiae labore. Velit recusandae consequuntur ex, delectus deleniti dolorum quis cumque! Quaerat doloremque eaque aliquid saepe?
                     Expedita unde numquam error est, voluptas dolores quibusdam molestiae aut laborum voluptate temporibus explicabo excepturi sequi tenetur quos officiis libero accusamus asperiores consequatur. Nemo illum quod aliquam, pariatur ducimus quos.
@@ -340,7 +340,7 @@ export default function NativeTabs(){
               <div className="flex justify-center">
                 <ScrollArea className="h-[600px] w-[85%] rounded-md border p-4 my-10">
                   <h1 className="font-extrabold text-black text-center my-10">TERMS & CONDITIONS</h1>
-                <div className="text-lg text-black text-center px-4 py-4 w-full">
+                <div className="text-lg text-black text-justify px-6 py-4 w-full">
                     Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eum ipsum quasi error delectus eos expedita laborum numquam impedit est asperiores amet, tempore perferendis vero odit illo totam. Exercitationem, unde consequatur.
                     Asperiores reprehenderit quisquam animi tenetur vel mollitia, nam omnis delectus ea autem enim sed molestiae labore. Velit recusandae consequuntur ex, delectus deleniti dolorum quis cumque! Quaerat doloremque eaque aliquid saepe?
                     Expedita unde numquam error est, voluptas dolores quibusdam molestiae aut laborum voluptate temporibus explicabo excepturi sequi tenetur quos officiis libero accusamus asperiores consequatur. Nemo illum quod aliquam, pariatur ducimus quos.
