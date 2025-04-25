@@ -8,16 +8,17 @@ export default function NativeTabs(){
         <div className="h-full w-[80%] flex justify-center">
       <Tabs defaultValue="about" className="w-full h-full flex items-center  py-10 ">
         <TabsList className='h-15 w-full my-2'>
-          <TabsTrigger value="about" className='font-extrabold bg-[#005A9C] text-white data-[state=active]:text-[#005A9C] mx-'>ABOUT</TabsTrigger>
-          <TabsTrigger value="founders" className='font-extrabold bg-[#005A9C] text-white data-[state=active]:text-[#005A9C] mx-'>FOUNDERS</TabsTrigger>
-          <TabsTrigger value="team" className='font-extrabold bg-[#005A9C] text-white data-[state=active]:text-[#005A9C]'>MEET THE TEAM</TabsTrigger>
-          <TabsTrigger value="policies" className='font-extrabold bg-[#005A9C] text-white data-[state=active]:text-[#005A9C]'>POLICIES</TabsTrigger>
-          <TabsTrigger value="terms" className='font-extrabold bg-[#005A9C] text-white data-[state=active]:text-[#005A9C]'>TERMS & CONDITIONS</TabsTrigger>
+          <TabsTrigger value="about" className='font-extrabold bg-[#041E42] text-white data-[state=active]:text-[#041E42] mx-'>ABOUT</TabsTrigger>
+          <TabsTrigger value="founders" className='font-extrabold bg-[#041E42] text-white data-[state=active]:text-[#041E42] mx-'>FOUNDERS</TabsTrigger>
+          <TabsTrigger value="team" className='font-extrabold bg-[#041E42] text-white data-[state=active]:text-[#041E42]'>MEET THE TEAM</TabsTrigger>
+          <TabsTrigger value="policies" className='font-extrabold bg-[#041E42] text-white data-[state=active]:text-[#041E42]'>POLICIES</TabsTrigger>
+          <TabsTrigger value="terms" className='font-extrabold bg-[#041E42] text-white data-[state=active]:text-[#041E42]'>TERMS & CONDITIONS</TabsTrigger>
         </TabsList>
         <TabsContent value="about"className=' w-screen text-[#005A9C] rounded-md flex justify-center'>
           <div className="w-[95%] h-[90%]">
             <PageBannerPlusText
-            img='footer.avif'
+            img="contact.jpg"
+        bg="bg-black/30 backdrop-blur-2xl"
             // bg="bg-[#005A9C]"
             bannerHeight="h-150"
             text={
@@ -61,6 +62,8 @@ export default function NativeTabs(){
         <div className="w-[90%] h-[90%]">
             <PageBannerPlusText
             img='contact.jpg'
+        bg="bg-black/30 backdrop-blur-2xl"
+
             bannerHeight="h-700"
             text={
               <div>
@@ -159,7 +162,7 @@ export default function NativeTabs(){
         <div className="w-[90%] h-[90%]">
             <PageBannerPlusText
             img='map.avif'
-            bg=''
+            bg='bg-white'
             bannerHeight="h-150"
             text={
               <div className="flex justify-center">
@@ -207,7 +210,8 @@ export default function NativeTabs(){
         <TabsContent value="team" className='w-screen text-[#005A9C] rounded-md flex justify-center'>
         <div className="w-[90%] h-[90%]">
             <PageBannerPlusText
-            img='ripple_1.avif'
+            img='contact.jpg'
+        bg="bg-black/30 backdrop-blur-2xl"
           
             bannerHeight="h-750"
             text={
@@ -329,8 +333,8 @@ export default function NativeTabs(){
         <TabsContent value="terms" className='w-screen text-[#005A9C] rounded-md flex justify-center'>
         <div className="w-[90%] h-[90%]">
             <PageBannerPlusText
-            img='map.avif'D
-            bg=''
+            img='map.avif'
+            bg='bg-white'
             bannerHeight="h-150"
             text={
               <div className="flex justify-center">

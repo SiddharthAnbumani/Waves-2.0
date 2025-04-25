@@ -27,7 +27,8 @@ export default function Home(){
                  }
              />
              <PageBannerPlusText 
-             img='footer.avif'
+             img="contact.jpg"
+        bg="bg-black/30 backdrop-blur-3xl"
              bannerHeight="h-90"
              text=
              {
@@ -67,7 +68,9 @@ export default function Home(){
              }
              />
              
-             <PageBannerPlusText img='ripple_1.avif'
+             <PageBannerPlusText 
+             img="contact.jpg"
+            bg="bg-black/30 backdrop-blur-xl"
              bannerHeight="h-150"
              text={
                  <div className="flex flex-col items-center space-y-10">
@@ -190,15 +193,15 @@ export default function Home(){
                     </div>
             </div> */}
             <PageBannerPlusText
-            img='gallery_bg.avif'
+            img="contact.jpg"
+        bg="bg-black/30 backdrop-blur-3xl"
             bannerHeight="h-155"
-            bg="bg-black/10"
             text={
                 <div className="flex flex-col items-center">
                     <h1 className="my-3">WHAT DO THEY SAY ABOUT US?</h1>
                     <p className="text-xl font-light italic mb-10">TESTIMONIALS</p>
                     <div className=" flex space-x-10">
-                        <div className="bg-[url('ripple_1.avif')] w-[310px] h-[400px] flex justify-center items-center rounded-3xl">
+                        <div className="bg-[url('ripple_1.avif')] backdrop-blur-2xl w-[310px] h-[400px] flex justify-center items-center rounded-3xl">
                             <div className="w-[90%] h-[90%] bg-white/10 backdrop-blur-lg space-y-2 py-2 px-2 rounded-lg">
                             <p className="text-lg px-3">SWIMMER'S TESTIMONIAL</p>
                             <p className="text-lg  px-3 font-light">"Training at Waves Academy has transformed not only my skills but my confidence as an athlete. 

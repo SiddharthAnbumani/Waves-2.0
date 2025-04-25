@@ -5,12 +5,13 @@ export default function Advanced(){
   return (
     <div className="">
       <PageBannerPlusText
-  img="/learn.jpeg"
+  img="learn.jpeg"
+  bg="bg-black/30 backdrop-blur-xl"
   bannerHeight="h-500"
   text={
     <div>
       <div className="flex flex-col justify-center items-center">
-        <div className="px-10 py-20 bg-black/60 w-[90%] backdrop-blur-sm rounded-md">
+        <div className="px-10 py-20 w-[90%] backdrop-blur-sm rounded-md">
           <h1 className="text-5xl text-center my-10">FROM COMPETENT TO CONFIDENT</h1>
           
           <p className="text-2xl font-light">

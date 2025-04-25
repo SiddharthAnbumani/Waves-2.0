@@ -3,7 +3,7 @@ import { NavLink } from "react-router-dom";
 export default function Footer() {
     return (
         <div className="">
-      <footer className="relative h-100 bg-black w-full">
+      <footer className="relative h-100 bg-[#041E42] w-full">
         <img src="/footer.avif" className="w-full h-full object-cover" />
   
         {/* Overlay */}

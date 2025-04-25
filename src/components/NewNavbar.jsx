@@ -2,7 +2,10 @@ import { NavLink } from "react-router-dom";
 
 export default function NewNavbar(){
     return (
-        <div className="sticky top-0 z-[9999] bg-[#005A9C] bg-cover bg-center backdrop-blur-sm h-16 flex items-center">
+
+
+        // <div className="sticky top-0 z-[9999] bg-[url('contact.jpg')] bg-black/30 backdrop-blur-3xl bg-cover bg-center h-16 flex items-center">
+        <div className="sticky top-0 z-[9999] bg-[#041E42] bg-cover bg-center backdrop-blur-3xl h-16 flex items-center"> 
         {/* <div className="sticky top-0 z-[9999] bg-black bg-cover bg-center backdrop-blur-sm h-16 flex items-center"> */}
             <div className="w-4/12 flex justify-start items-center">
             <img src="/logo.PNG" alt="" className="h-14 ml-5"/>
@@ -56,12 +59,12 @@ export default function NewNavbar(){
                     className={({ isActive }) => isActive ? "border-b-2 border-white" : "text-white"}>
                     RACING </NavLink>
                 </li>
-                <li className="transition-all duration-200 hover:border-b-2 border-white">
+                {/* <li className="transition-all duration-200 hover:border-b-2 border-white">
                     <NavLink 
                     to='/aquaclub'
                     className={({ isActive }) => isActive ? "border-b-2 border-white" : "text-white"}>
                     AQUACLUB </NavLink>
-                </li>
+                </li> */}
                 <li className="transition-all duration-200 hover:border-b-2 border-white">
                     <NavLink 
                     to='/gallery'

@@ -14,7 +14,8 @@ export default function CompetetiveSwim(){
       </div>
       }/>
       <PageBannerPlusText 
-      img='footer.avif'
+      img="contact.jpg"
+        bg="bg-black/30 backdrop-blur-2xl"
       bannerHeight="h-120"
       text={
         <div className="flex flex-col items-center ">
@@ -42,8 +43,8 @@ export default function CompetetiveSwim(){
       />
       <PageBannerPlusText 
       img='map.avif'
+      bg='bg-white'
       bannerHeight="h-350"
-      bg=""
       text={
           <div className="text-black flex flex-col items-center">
             <div className="w-[80%] flex flex-col items-center space-y-2">

@@ -15,8 +15,10 @@ export default function Courses(){
       <PageBannerPlusText img='lts.avif' text='OUR FOUNDATION SWIMMING PROGRAMS' textSize="text-4xl" imgClass='' bannerHeight="h-100"/>
       <PageBannerPlusText
       // img='footer.avif'
-      img='gallery_bg.avif'
-      bg="bg-black/30"
+      // img='gallery_bg.avif'
+      // bg="bg-black/30"
+      img="learn.jpeg"
+  bg="bg-black/30 backdrop-blur-xl"
       bannerHeight="h-550"
       text={
             <div className="space-y-5">

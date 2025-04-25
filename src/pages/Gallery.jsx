@@ -10,7 +10,8 @@ export default function Gallery(){
           <title>Gallery | Waves Swim Academy</title>
         </Helmet>
         <PageBannerPlusText
-        img='gallery_bg.avif'
+        img='contact.jpg'
+         bg="bg-black/30 backdrop-blur-md"
         text='WAVES SWIM ACADEMY - A VISUAL CHRONICLE'/>
         <PageBannerPlusText 
         img='racing.avif'
