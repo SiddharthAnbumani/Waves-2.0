@@ -24,20 +24,20 @@ export default function NativeTabs(){
             text={
               <div className="flex flex-col items-center space-y-3">
                 <div className="flex items-end"> 
-                  <p className="text-5xl text-blue-700 font-[abel]">W</p>
-                  <p className="mr-3 font-light">e</p>
+                  <p className="text-5xl text-white font-[abel]">W</p>
+                  <p className="mr-3 font-light text-gray-100">e</p>
 
-                  <p className="text-5xl text-blue-700 font-[abel]">A</p>
-                  <p  className="mr-3  font-light">lways</p>
+                  <p className="text-5xl text-white font-[abel]">A</p>
+                  <p  className="mr-3  font-light text-gray-100">lways</p>
 
-                  <p className="text-5xl text-blue-700 font-[abel]">V</p>
-                  <p  className="mr-3  font-light">alue</p>
+                  <p className="text-5xl text-white font-[abel]">V</p>
+                  <p  className="mr-3  font-light text-gray-100">alue</p>
                   
-                  <p className="text-5xl text-blue-700 font-[abel]">E</p>
-                  <p  className="mr-3  font-light">very</p>
+                  <p className="text-5xl text-white font-[abel]">E</p>
+                  <p  className="mr-3  font-light text-gray-100">very</p>
 
-                  <p className="text-5xl text-blue-700 font-[abel]">S</p>
-                  <p  className="mr-3  font-light">wimmer</p>
+                  <p className="text-5xl text-white font-[abel]">S</p>
+                  <p  className="mr-3  font-light text-gray-100">wimmer</p>
                 </div>
                 <p className="w-[90%] text-xl font-light">
                     At Waves Swim Academy, we believe that every great swimmer starts with a confident first stroke. 
