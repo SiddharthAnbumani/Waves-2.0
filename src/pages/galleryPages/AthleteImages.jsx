@@ -13,6 +13,13 @@ const AthleteImages = () => {
 
       text={
       <div className='flex flex-col items-center'>
+        <div className="">
+            <div className=" mt-0 mb-5 text-3xl"> 
+            <NavLink to='/gallery' className='hover:bg-white hover:border-2 px-2 py-1 rounded-4xl hover:scale-110 transition-all duration-150'>
+            &#8592;
+            </NavLink>
+            </div>
+          </div>
         <h1 className='font-extrabold text-5xl my-3'>
           ATHLETE - OUR FOUNDATION SWIMMERS
         </h1>

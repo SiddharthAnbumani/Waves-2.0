@@ -25,45 +25,74 @@ export default function ContactUs() {
         bannerHeight="h-300"
         text={
           <div className="w-screen flex flex-col lg:flex-row justify-evenly">
-            {/* Contact Info Section */}
-            <div className="relative flex justify-center  bg-black/10 rounded-[50px]">
-              {/* <img src="contact.jpg" alt="" className="h-250 w-[500px] rounded-[50px] bg-black/10" /> */}
-              <img src="contact.jpg" alt="" className="h-250 w-[500px] rounded-[50px] backdrop-blur-3xl" />
-              <div className="absolute inset-0 flex flex-col justify-center items-center px-10 text-white bg-black/30 backdrop-blur-3xl rounded-[50px] ">
-                <h1 className="font-extrabold">CONTACT US</h1>
 
-                <div className="w-[90%]  backdrop-blur-3xl px-4 py-2 rounded-sm flex flex-col items-center justify-center mb-3">
-                  <p className="text-2xl">Send us a mail</p>
+
+            {/* Vertical Section */}
+            <div className="relative flex justify-center  bg-black/10 rounded-[50px]">
+              <img src="contact.jpg" alt="" className="h-265 w-[500px] rounded-[50px] backdrop-blur-3xl" />
+              <div className="absolute inset-0 flex flex-col  items-center px-10 py-1 text-white bg-black/30 backdrop-blur-3xl rounded-[50px] ">
+             
+             
+              <div className="my-12 h-full w-[90%] flex flex-col items-center space-y-10">
+                <h1 className="font-extrabold text-2xl"></h1>
+  
+                <div className="flex flex-col items-center bg-gray-100 border-2 shadow-2xl text-[#041E42] py-3 px-2 rounded-lg">
+                  <h1 className="text-2xl">Waves, Zamin Palavaram</h1>
+                  <p className="text-lg font-light w-[90%]  py-2 px-2 rounded-md my-2">
+                    <p className="font-extrabold">Address</p>
+                    No.92, Perumal Nagar Main Road,
+                    Off 200ft Pallavaram, Thuraipakkam Road,
+                    Zamin Pallavaram, Chennai – 600117.
+                    <a className=" flex my-2 items-center justify-center hover:scale-110 transition-all duration-500 "
+                     href="https://www.google.co.in/maps/place/Waves+Swim+Academy,+off+200ft,+Pallavaram-thouraipakkam+road,+92,+Ambedkar+Main+Rd,+Perumal+Nagar,+Old+Pallavaram,+Chennai,+Tamil+Nadu+600117/@12.9518109,80.1713235,17z/data=!3m1!4b1!4m6!3m5!1s0x3a525e65357292df:0x2b8a31669516400a!8m2!3d12.9518273!4d80.1761941!16s%2Fg%2F11b7q6wmtc?entry=ttu&g_ep=EgoyMDI1MDQyMy4wIKXMDSoASAFQAw%3D%3D"
+                     target="_blank"> <p className="font-bold text-sm text-red-700">OPEN IN MAPS</p> <img className="h-8 hover:scale-110" src="/location.png"/></a>
+                  </p>
+                  <p className="text-lg font-light w-[90%] px-2 rounded-md "><b className="text-xl font-extrabold">Phone</b><br/>
+                  (+91) 7550223044<br/>
+                  (+91) 7395999004<br/>
+                  </p>
+                  <p className="text-lg font-bold w-[90%]  py-2 px-2 rounded-md my-2">Send us a mail <br/>
                   <a
-                    className="text-lg text-blue-400 underline"
+                    className="text-lg underline"
                     href="mailto:waveswimacademy@gmail.com"
                   >
                     waveswimacademy@gmail.com
                   </a>
+                  </p>
+                </div>
+                <div className="flex flex-col items-center bg-gray-100 border-2 shadow-2xl text-[#041E42] py-5 px-2 rounded-lg">
+                  <h1 className="text-2xl">Waves, Kelambakkam</h1>
+                  <p className="text-lg font-light w-[90%]  py-2 px-2 rounded-md my-2">
+                    <p className="font-extrabold">Address</p>
+                    No.92, Perumal Nagar Main Road,
+                    Off 200ft Pallavaram, Thuraipakkam Road,
+                    Zamin Pallavaram, Chennai – 600117.
+                    <a className="flex my-2 items-center justify-center hover:scale-110 transition-all duration-500 "
+                     href="https://www.google.co.in/maps/place/WAVES+SWIM+ACADEMY+-+Swim+Classes%2F+Swim+Lessons%2F+Swimming+Pool%2F+Swim+Academy+for+Kids%2F+Children+and+Adults/@12.7743669,80.2154981,17z/data=!4m14!1m7!3m6!1s0x3a52511ab0aa3e8f:0x5b2fadef4bebbf44!2sWAVES+SWIM+ACADEMY+-+Swim+Classes%2F+Swim+Lessons%2F+Swimming+Pool%2F+Swim+Academy+for+Kids%2F+Children+and+Adults!8m2!3d12.7743669!4d80.218073!16s%2Fg%2F11x8dt2bks!3m5!1s0x3a52511ab0aa3e8f:0x5b2fadef4bebbf44!8m2!3d12.7743669!4d80.218073!16s%2Fg%2F11x8dt2bks?entry=ttu&g_ep=EgoyMDI1MDQyMy4wIKXMDSoASAFQAw%3D%3D"
+                     target="_blank"> <p className="font-bold text-sm text-red-700">OPEN IN MAPS</p> <img className="h-8 hover:scale-110" src="/location.png"/></a> 
+
+                  </p>
+                  <p className="text-lg font-light w-[90%] px-2 rounded-md "><b className="text-xl font-extrabold">Phone</b><br/>
+                  (+91) 7550223044<br/>
+                  (+91) 7395999004<br/>
+                  </p>
+                  <p className="text-lg font-bold w-[90%]  py-2 px-2 rounded-md my-2">Send us a mail <br/>
+                  <a
+                    className="text-lg text-blue-700 underline"
+                    href="mailto:waveswimacademy@gmail.com"
+                  >
+                    waveswimacademy@gmail.com
+                  </a>
+                  </p>
                 </div>
 
-                <p className="text-lg  backdrop-blur-3xl w-[90%] py-2 px-2 rounded-md my-2">
-                  Phone:
-                  <span className="block text-xl font-light">
-                    7550223044 , 7395999004
-                  </span>
-                </p>
-
-                <p className="text-lg font-light w-[90%] backdrop-blur-3xl py-2 px-2 rounded-md my-2">
-                  <p className="font-extrabold">Address: Waves Pallavaram,</p>
-                  No.92, Perumal Nagar Main Road,
-                  Off 200ft Pallavaram, Thuraipakkam Road,
-                  Zamin Pallavaram, Chennai – 600117.
-                </p>
-
-                <p className="text-lg font-light w-[90%]  backdrop-blur-3xl py-2 px-2 rounded-md my-2">
-                  <p className="font-extrabold">Address: Waves Kelambakkam,</p>
-                  No.92, Perumal Nagar Main Road,
-                  Off 200ft Pallavaram, Thuraipakkam Road,
-                  Zamin Pallavaram, Chennai – 600117.
-                </p>
+              
+              </div>
               </div>
             </div>
+
+
+
 
             {/* Send Us A Message Section */}
             <div className="flex flex-col justify-start my-10 items-center space-y-10 w-[600px]">
