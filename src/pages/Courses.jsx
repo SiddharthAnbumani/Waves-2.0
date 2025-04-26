@@ -12,18 +12,27 @@ export default function Courses(){
       <Helmet>
         <title>Foundation Programs | Waves Swim Academy </title>
       </Helmet>
-      <PageBannerPlusText img='lts.avif' text='OUR FOUNDATION SWIMMING PROGRAMS' textSize="text-4xl" imgClass='' bannerHeight="h-100"/>
+      <PageBannerPlusText img='lts.avif' 
+      textSize="text-4xl" 
+      imgClass='' 
+      bannerHeight="h-100"
+      bg="bg-black/40"
+      text={
+        <div>
+          <h1 className="shadow-2xl">OUR FOUNDATION SWIMMING PROGRAMS</h1>
+        </div>
+      }/>
       <PageBannerPlusText
       // img='footer.avif'
       // img='gallery_bg.avif'
       // bg="bg-black/30"
-      img="learn.jpeg"
-  bg="bg-black/30 backdrop-blur-xl"
+      img="contact_1.jpg"
+  bg="bg-black/30 backdrop-blur-3xl"
       bannerHeight="h-550"
       text={
             <div className="space-y-5">
               <div className=" flex flex-col items-center mb-20">
-              <h1 className="text-5xl text-center mt-10 mb-5">PROGRAM CURRICULUM</h1>
+              <h1 className="text-5xl text-center mt-10 mb-5 shadow-2xl">PROGRAM CURRICULUM</h1>
               <p className="font-light text-xl w-[90%] text-center">
                 At Waves Swim Academy, we believe every swimmer is unique—and so is their 
                 journey. If your child already knows how to swim, they are welcome to enroll
@@ -73,7 +82,7 @@ export default function Courses(){
               <h1 className="text-3xl text-center my-10 mt-20">OUR FOUNDATION PROGRAMS</h1>
             <HorizontalInfoBanner
             title='Level 1'
-            subHeading="Period : 30 days"
+            subHeading="Period - 2 Weeks"
             navLink="/courses/beginner"
             titleColor="text-yellow-600"
             img='lts.avif'
@@ -89,7 +98,7 @@ export default function Courses(){
             <HorizontalInfoBanner
             title='INTERMEDIATE'
             navLink="/courses/intermediate"
-            subHeading="Period : 3 Months"
+            subHeading="Period - 3 Months"
             titleColor="text-orange-600"
             img='lts.avif'
             text='Designed for young swimmers ready to refine their technique, this 3-month program focuses 
@@ -103,7 +112,7 @@ export default function Courses(){
             <HorizontalInfoBanner
             title='ADVANCED'
             navLink="/courses/advanced"
-            subHeading="Period : 6 Months"
+            subHeading="Period - 6 Months"
             titleColor="text-red-500"
             img='lts.avif'
             text='This intensive 6-month course is designed for young swimmers ready to master
@@ -117,7 +126,7 @@ export default function Courses(){
             <HorizontalInfoBanner
             title='STROKE SCHOOL'
             navLink="/courses/stroke-school"
-            subHeading="Period : 12 Months"
+            subHeading="Period - 12 Months"
             titleColor="text-violet-600"
             img='lts.avif'
             text='Our Stroke School program is a vital step in every swimmer’s journey to becoming

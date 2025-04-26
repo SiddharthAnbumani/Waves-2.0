@@ -1,6 +1,8 @@
 import { NavLink } from "react-router-dom"
 import PageBannerPlusText from "../../components/PageBannerPlusText"
 import StrokeDisplay from "../../components/StrokeDisplay"
+import Footer from "../../components/Footer"
+
 export default function Intermediate(){
   return (
     <div className="">
@@ -105,6 +107,7 @@ export default function Intermediate(){
   }
 />
 
+<Footer/>
         
     </div>
   )

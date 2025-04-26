@@ -1,6 +1,7 @@
 import { NavLink } from "react-router-dom"
 import PageBannerPlusText from "../../components/PageBannerPlusText"
 import StrokeDisplay from "../../components/StrokeDisplay"
+import Footer from "../../components/Footer"
 export default function Advanced(){
   return (
     <div className="">
@@ -110,6 +111,7 @@ export default function Advanced(){
     </div>
   }
 />
+<Footer/>
 
     </div>
   )

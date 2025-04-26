@@ -11,7 +11,7 @@ export default function ContactUs() {
             </Helmet>
       <PageBannerPlusText
         img="contact.jpg"
-        bg="bg-black/30 backdrop-blur-md"
+        bg="bg-black/30 backdrop-blur-3xl"
         text={
           <div className="">
             <h1>CONTACT US</h1>
@@ -20,7 +20,7 @@ export default function ContactUs() {
       />
 
       <PageBannerPlusText
-      bg="bg-gray-100"
+      bg="bg-gray-200"
       // img='contact_bg.avif'
         bannerHeight="h-300"
         text={
@@ -29,7 +29,7 @@ export default function ContactUs() {
             <div className="relative flex justify-center  bg-black/10 rounded-[50px]">
               {/* <img src="contact.jpg" alt="" className="h-250 w-[500px] rounded-[50px] bg-black/10" /> */}
               <img src="contact.jpg" alt="" className="h-250 w-[500px] rounded-[50px] backdrop-blur-3xl" />
-              <div className="absolute inset-0 flex flex-col justify-center items-center px-10 text-white bg-black/30 backdrop-blur-md rounded-[50px] ">
+              <div className="absolute inset-0 flex flex-col justify-center items-center px-10 text-white bg-black/30 backdrop-blur-3xl rounded-[50px] ">
                 <h1 className="font-extrabold">CONTACT US</h1>
 
                 <div className="w-[90%]  backdrop-blur-3xl px-4 py-2 rounded-sm flex flex-col items-center justify-center mb-3">
@@ -76,7 +76,7 @@ export default function ContactUs() {
                 />
 
                 {/* Form Overlay */}
-                <div className="absolute inset-0 z-10 flex flex-col items-center justify-center bg-black/30 backdrop-blur-sm px-4 py-6 rounded-2xl text-white">
+                <div className="absolute inset-0 z-10 flex flex-col items-center justify-center bg-black/30 backdrop-blur-3xl px-4 py-6 rounded-2xl text-white">
                   <h1 className="my-5 text-xl font-extrabold">SEND US A MESSAGE</h1>
 
                   <div className="flex gap-4">
@@ -84,28 +84,28 @@ export default function ContactUs() {
                       <input
                         type="text"
                         placeholder="Enter Your Name"
-                        className="bg-white border border-black/40 w-[250px] rounded-md text-black text-sm h-10 px-3 placeholder:font-light"
+                        className="bg-gray-200 border border-black/40 w-[250px] rounded-md text-black text-sm h-10 px-3 placeholder:font-light"
                       />
                       <input
                         type="email"
                         placeholder="Enter Your Email"
-                        className="bg-white border border-black/40 w-[250px] rounded-md text-black text-sm h-10 px-3 placeholder:font-light"
+                        className="bg-gray-200 border border-black/40 w-[250px] rounded-md text-black text-sm h-10 px-3 placeholder:font-light"
                       />
                       <input
                         type="text"
                         placeholder="Contact"
-                        className="bg-white border border-black/40 w-[250px] rounded-md text-black text-sm h-10 px-3 placeholder:font-light"
+                        className="bg-gray-200 border border-black/40 w-[250px] rounded-md text-black text-sm h-10 px-3 placeholder:font-light"
                       />
                     </div>
 
                     <textarea
                       placeholder="Message..."
                       rows="5"
-                      className="bg-white border border-black/40 w-[250px] rounded-md py-2 px-3 text-black text-sm placeholder:font-light"
+                      className="bg-gray-200 border border-black/40 w-[250px] rounded-md py-2 px-3 text-black text-sm placeholder:font-light"
                     ></textarea>
                   </div>
 
-                  <button className="bg-white mt-6 text-lg rounded-lg py-2 px-10 text-[#041E42] border-2 shadow border-[#041E42] hover:scale-110 transition-all duration-150 font-semibold">
+                  <button className="bg-gray-200 mt-6 text-lg rounded-lg py-2 px-10 text-[#041E42] border-2 shadow border-[#041E42] hover:scale-110 transition-all duration-150 font-semibold">
                     Send Message
                   </button>
                 </div>

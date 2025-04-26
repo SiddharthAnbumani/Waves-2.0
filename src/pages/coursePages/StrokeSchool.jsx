@@ -1,6 +1,8 @@
 import PageBannerPlusText from "../../components/PageBannerPlusText"
 import { NavLink } from "react-router-dom"
 import StrokeDisplay from "../../components/StrokeDisplay"
+import Footer from "../../components/Footer"
+
 export default function StrokeSchool(){
   return (
     <div className="">
@@ -99,6 +101,8 @@ export default function StrokeSchool(){
     </div>
   }
 />
+<Footer/>
+
 
       </div>
   )

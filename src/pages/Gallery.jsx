@@ -12,11 +12,11 @@ export default function Gallery(){
         </Helmet>
         <PageBannerPlusText
         img='contact.jpg'
-         bg="bg-black/30 backdrop-blur-md"
+         bg="bg-black/30 backdrop-blur-3xl"
         text='WAVES SWIM ACADEMY - A VISUAL CHRONICLE'/>
         <PageBannerPlusText 
         img='contact_1.jpg'
-        bg="bg-black/30 backdrop-blur-2xl"
+        bg="bg-black/30 backdrop-blur-3xl"
         bannerHeight="h-150"
         text={
           <div className="flex space-x-4">

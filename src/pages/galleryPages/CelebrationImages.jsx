@@ -1,16 +1,18 @@
 import React from 'react'
 import { NavLink } from 'react-router-dom'
 import PageBannerPlusText from '../../components/PageBannerPlusText'
+import Footer from "../../components/Footer"
 
 
 const CelebrationImages = () => {
   return (
     <div>
         <PageBannerPlusText
-      img=
-      'gallery_bg.avif'
+         img=
+         'contact_1.jpg'
+         bg='bg-black/30 backdrop-blur-3xl'
       bannerHeight='h-500'
-      bg='bg-black/10'
+
       text={
       <div className='flex flex-col items-center'>
         <h1 className='font-extrabold text-5xl my-3'>
@@ -50,9 +52,10 @@ const CelebrationImages = () => {
           <img src="/stroke.avif" alt="" className='h-60 '/>
           
         </div>
-        <NavLink className={`bg-yellow-600 px-14 py-2 text-lg font-bold text-white rounded-md transform transform-all duration-150 hover:scale-110`} to='/gallery'>Back to gallery</NavLink>
+        <NavLink className={`bg-[#041E42] px-14 py-2 text-lg font-bold text-white rounded-md transform transform-all duration-150 hover:scale-110`} to='/gallery'>Back to gallery</NavLink>
       </div>
       }/> 
+      <Footer/>
       
       </div>
   )

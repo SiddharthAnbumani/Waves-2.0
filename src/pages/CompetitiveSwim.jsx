@@ -9,30 +9,31 @@ export default function CompetetiveSwim(){
       <VideoPlusText img='racing.mp4' 
       text={
       <div className="flex flex-col justify-center">
-        <h1 className="text-7xl font-extrabold">SWIMMING AS A SPORT</h1>
+        <h1 className="text-7xl font-extrabold shadow">SWIMMING AS A SPORT</h1>
         <h1 className="text-4xl font-light">INTRODUCTION TO COMPETITVE SWIMMING AND RACING</h1>
       </div>
       }/>
       <PageBannerPlusText 
       img="contact.jpg"
-        bg="bg-black/30 backdrop-blur-2xl"
-      bannerHeight="h-120"
+      bg="bg-black/30 backdrop-blur-3xl"
+      // bg="bg-[#041E42]"
+      bannerHeight="h-110"
       text={
         <div className="flex flex-col items-center ">
           <div className="flex flex-col items-center w-[80%]">
-          <h1 className="text-4xl font-extrabold my-10">HOW GOOD ARE WE?</h1>
-          <p className="text-xl font-light ">At Waves Swim Academy,
+          <h1 className="text-3xl font-extrabold my-3">HOW GOOD ARE WE?</h1>
+          <p className="text-xl font-light text-justify">At Waves Swim Academy,
               Where others follow the standard, we set it.
               Our swimmers have earned hundreds of medals at major District and State-level 
               championships,establishing us as a dominant force in the competitive swimming in Tamil Nadu.<br/>
               This tradition of excellence was ignited by our mentor, Kaavyashri—a trailblazer in 
               the pool who has personally secured over 100 State-level medals and nearly 25 National-
-              level medals. <br/> Her remarkable journey continues to inspire every athlete who walks through 
+              level medals. <br/><br/> Her remarkable journey continues to inspire every athlete who walks through 
               our doors.
               Today, under her expert guidance, we’ve nurtured a new generation of standout swimmers—
               athletes who’ve shattered State Records and claimed National-level victories, carrying 
-              forward our legacy and continuously raising the bar.<br/>
-              <p className="font-extrabold text-2xl">
+              forward our legacy and continuously raising the bar.<br/><br/>
+              <p className="font-bold text-2xl">
               At Waves, we don’t just train swimmers—
               We create champions who lead the way.
               </p>
@@ -42,13 +43,13 @@ export default function CompetetiveSwim(){
       }
       />
       <PageBannerPlusText 
-      img='map.avif'
-      bg='bg-white'
+            img="contact_1.jpg"
+  bg="bg-black/30 backdrop-blur-3xl"
       bannerHeight="h-400"
       text={
         <div className="w-full flex justify-center items-center">
 
-          <div className="text-black flex flex-col items-center w-[90%] bg-white border-2 rounded-4xl shadow-lg">
+          <div className="text-black flex flex-col items-center w-[90%] bg-gray-200 border-2 rounded-4xl shadow-lg">
             <div className="w-[80%] flex flex-col items-center space-y-2 ">
               <h1 className="text-4xl  font-extrabold my-10">HOW DO WE TURN A BEGINNER INTO AN ATHLETE?</h1>
               <h1 className="text-2xl  font-semibold my-2">WE EXPEXT THE SWIMMERS TO HAVE ALL THE GRADUATION SKILLS OF STROKE SCHOOL TO PURSE</h1>
@@ -65,7 +66,7 @@ export default function CompetetiveSwim(){
           <div className="w-[80%] my-5"> 
           <div className="text-black my-2 flex flex-col space-y-3 ">
             <p className="font-extrabold text-xl">HERE'S HOW WE MAKE IT HAPPEN,</p>
-            <div className="font-light bg-gray-100 py-4 px-3 rounded-xl">
+            <div className="font-light bg-gray-300 py-4 px-3 rounded-xl">
               <p className="text-xl mx-4 my-2 font-semibold text-[#041E42]">
                 THE STAGE OF PRELIMINARY SPORT PREPARATION OBJECTIVES
               </p>
@@ -82,7 +83,7 @@ export default function CompetetiveSwim(){
               </ul>
             </div>
 
-            <div className="font-light bg-gray-100 py-4 px-3 rounded-xl">
+            <div className="font-light bg-gray-300 py-4 px-3 rounded-xl">
               <p className="text-xl mx-4 my-2 font-semibold text-[#041E42]">
               THE STAGE OF BASIC TRAINING OBJECTIVES
               </p>
@@ -102,7 +103,7 @@ export default function CompetetiveSwim(){
               </ul>
             </div>
 
-            <div className="font-light bg-gray-100 py-4 px-3 rounded-xl">
+            <div className="font-light bg-gray-300 py-4 px-3 rounded-xl">
               <p className="text-xl mx-4 my-2 font-semibold text-[#041E42]">
               THE STAGE OF SPECIALIZATION OBJECTIVES
               </p>
@@ -119,7 +120,7 @@ export default function CompetetiveSwim(){
               </ul>
             </div>
 
-            <div className="font-light bg-gray-100 py-4 px-3 rounded-xl">
+            <div className="font-light bg-gray-300 py-4 px-3 rounded-xl">
               <p className="text-xl mx-4 font-semibold text-[#041E42] my-2">
               THE STAGE OF EXCELLENCE OBJECTIVES
               </p>

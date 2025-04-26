@@ -1,5 +1,6 @@
 import PageBannerPlusText from "../../components/PageBannerPlusText"
 import { NavLink } from "react-router-dom"
+import Footer from "../../components/Footer"
 export default function LearnToSwim(){
   return (
 <div className="">
@@ -126,6 +127,8 @@ export default function LearnToSwim(){
     </div>
   }
   />
+            <Footer/>
+
 </div>
   ) 
 }
