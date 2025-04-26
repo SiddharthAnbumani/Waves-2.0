@@ -13,7 +13,7 @@ export default function LearnToSwim(){
    }
   />
   <PageBannerPlusText
-  bannerHeight="h-400"
+  bannerHeight="h-395"
   img='contact_1.jpg'
   bg="bg-black/30 backdrop-blur-xl"
   text={
@@ -21,7 +21,7 @@ export default function LearnToSwim(){
       <div className="flex flex-col justify-center items-center">
       <div className="px-10 py-20 pt-10 bg-gray-100 text-black border-2 shadow-xl w-[90%] backdrop-blur-sm rounded-xl">
       <div className="flex flex-col justify-center">
-        <div className=" mt-0 mb-10 text-3xl"> 
+        <div className=" mt-0 mb-5 text-3xl"> 
           <NavLink to='/swimming-courses' className='hover:bg-white hover:border-2 px-2 py-1 rounded-4xl hover:scale-110 transition-all duration-150'>
           &#8592;
           </NavLink>

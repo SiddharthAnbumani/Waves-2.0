@@ -13,7 +13,7 @@ export default function Intermediate(){
       <PageBannerPlusText
   img='contact_1.jpg'
   bg="bg-black/30 backdrop-blur-2xl"
-  bannerHeight="h-500"
+  bannerHeight="h-485"
   text={
     <div>
       <div className="flex flex-col justify-center items-center">
