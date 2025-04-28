@@ -213,10 +213,30 @@ export default function NativeTabs(){
             img='contact.jpg'
         bg="bg-black/30 backdrop-blur-3xl"
           
-            bannerHeight="h-750"
+            bannerHeight="h-900"
             text={
               <div className="flex flex-col justify-center items-center">
-                <h1 className="font-bold text-4xl my-10 pt-20">OUR COACHES AND TRAINERS</h1>
+                <div className="flex flex-col items-center w-[80%]"> 
+                  <h1>
+                  OUR MENTOR'S QUALIFICATIONS
+                  </h1>
+                  <p className="text-lg font-light text-justify">
+                  In addition to her achievements in the pool, Kaavyashri has distinguished herself in
+                   the field of coaching. Beyond her decorated career as an elite athlete, she holds 
+                   globally recognized ASCA Level 1 to 5 certifications, combining her competitive 
+                   experience with world-class coaching standards to mentor and inspire the next generation 
+                   of swimmers
+                  </p>
+                  <div className="grid grid-cols-4 space-x-2">
+                    <img src="learn.jpeg" alt="" className="h-45" />
+                    <img src="learn.jpeg" alt="" className="h-45" />
+                    <img src="learn.jpeg" alt="" className="h-45" />
+                    <img src="learn.jpeg" alt="" className="h-45" />
+               
+                  </div>
+
+                </div>
+                <h1 className="font-bold text-3xl my-10 pt-20">OUR COACHES, TRAINERS AND THEIR QUALIFICATIONS</h1>
 
                 <div className="grid grid-cols-2 space-x-10 space-y-10">
                   <div className="bg-black/40 backdrop-blur-md w-[500px] py-5 px-2 rounded-xl">
