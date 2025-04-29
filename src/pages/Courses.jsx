@@ -5,6 +5,7 @@ import { NavLink } from "react-router-dom";
 import HorizontalInfoBanner from "../components/HorizontalInfoBanner";
 import { Helmet } from "react-helmet";
 import Footer from "../components/Footer";
+import Timings from "../components/Timings";
 
 export default function Courses(){
   return (
@@ -23,12 +24,9 @@ export default function Courses(){
         </div>
       }/>
       <PageBannerPlusText
-      // img='footer.avif'
-      // img='gallery_bg.avif'
-      // bg="bg-black/30"
       img="contact_1.jpg"
-  bg="bg-black/30 backdrop-blur-3xl"
-      bannerHeight="h-550"
+      bg="bg-black/30 backdrop-blur-3xl"
+      bannerHeight="h-650"
       text={
             <div className="space-y-5">
               <div className=" flex flex-col items-center mb-20">
@@ -45,6 +43,9 @@ export default function Courses(){
                successfully completed the graduation requirements from the relevant 
                foundation and advanced levels
               </p>
+              <div className="my-5">
+              <Timings/>
+              </div>
             </div>
             <h1 className="text-3xl text-center my-10">DON'T KNOW HOW TO SWIM?</h1>
 
@@ -64,21 +65,6 @@ export default function Courses(){
             btnBgTextColor="bg-green-600"
             border=""
             />
-            {/* <div className=" flex flex-col items-center my-20">
-              <h1 className="text-5xl text-center mt-10 mb-5">Our Foundation Programs</h1>
-              <p className="font-light text-lg w-[90%] text-center">
-                At Waves Swim Academy, we believe every swimmer is unique—and so is their 
-                journey. If your child already knows how to swim, they are welcome to enroll
-                 directly into the course that best matches their current skill level. There 
-                 is no requirement to start from the beginning if they are ready for more advanced 
-                 instruction. Each of our courses includes a set of clearly defined graduation skills
-              </p>
-              <p className="font-semibold text-lg w-[90%] text-center my-5 ">
-              To continue with competitive swimming, it is essential that the swimmer has
-               successfully completed the graduation requirements from the relevant 
-               foundation and advanced levels
-              </p>
-            </div> */}
               <h1 className="text-3xl text-center my-10 mt-20">OUR FOUNDATION PROGRAMS</h1>
             <HorizontalInfoBanner
             title='Level 1'
