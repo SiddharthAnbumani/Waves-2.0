@@ -213,10 +213,10 @@ export default function NativeTabs(){
             img='contact.jpg'
         bg="bg-black/30 backdrop-blur-3xl"
           
-            bannerHeight="h-900"
+            bannerHeight="h-825"
             text={
               <div className="flex flex-col justify-center items-center">
-                <div className="flex flex-col items-center w-[80%]"> 
+                <div className="flex flex-col items-center w-[80%] my-10 space-y-4"> 
                   <h1>
                   OUR MENTOR'S QUALIFICATIONS
                   </h1>
@@ -232,9 +232,7 @@ export default function NativeTabs(){
                     <img src="learn.jpeg" alt="" className="h-45" />
                     <img src="learn.jpeg" alt="" className="h-45" />
                     <img src="learn.jpeg" alt="" className="h-45" />
-               
                   </div>
-
                 </div>
                 <h1 className="font-bold text-3xl my-10 pt-20">OUR COACHES, TRAINERS AND THEIR QUALIFICATIONS</h1>
 
