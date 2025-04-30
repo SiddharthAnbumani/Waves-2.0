@@ -3,15 +3,18 @@ import { NavLink } from "react-router-dom";
 export default function Footer() {
     return (
         <div className="">
-      <footer className="relative h-100 bg-[#041E42] w-full">
-        <img src="/footer.avif" className="w-full h-full object-cover" />
+      <footer className="relative md:h-100 bg-[#041E42] w-full">
+        <div className="hidden md:flex">
+
+        </div>
+        <img src="/footer.avif" className=" w-full h-full object-cover" />
   
         {/* Overlay */}
         <div className="absolute inset-0 bg-black/40 flex items-center justify-center">
           {/* Container for 4 divs */}
-          <div className="w-11/12 h-full flex space-x-2">
+          <div className="w-11/12 h-full flex flex-col md:flex-row lg:flex-row xl:flex-row 2xl:flex-row md:space-x-2 ">
 
-            <div className="w-1/4 h-full">
+            <div className="md:w-1/4 h-full w-screen flex flex-col items-center bg-black md:bg-transparent">
                 <h1 className="text-2xl font-extrabold text-center text-white my-5">Contact Us</h1>
                 <p className="text-white font-bold text-lg">Waves, Zamin Pallavaram</p>
                 <p className="text-white font-light text-md px-4"> <b className="font-bold">Phone no:</b><br/>
@@ -31,7 +34,7 @@ export default function Footer() {
                 </p>
             </div>
 
-            <div className="w-1/4 h-full">
+            <div className="w-full md:w-1/4 h-full  bg-black md:bg-transparent">
                 <h1 className="text-2xl font-extrabold text-center text-white my-5">Links</h1>
                 <ul className="text-gray-100 text-lg font-light flex flex-col justify-start items-center h-full w-full space-y-3 my-2">
                     <li>
@@ -58,7 +61,7 @@ export default function Footer() {
                 </ul>
             </div>
 
-            <div className="w-1/4  h-full">
+            <div className="w-full md:w-1/4 h-full  bg-black md:bg-transparent">
                 <h1 className="text-2xl font-extrabold text-center text-white my-5">Our Programs</h1>
                 <ul className="text-gray-100 text-lg font-light flex flex-col justify-start items-center h-full w-full space-y-3 my-2">
                     <li>
@@ -85,7 +88,7 @@ export default function Footer() {
                 </ul>
                 {/* <img src="/image.png" alt="" /> */}
             </div>
-            <div className="w-1/4 h-full">
+            <div className="md:w-1/4 h-full w-full bg-black md:bg-transparent">
             <div className=" flex flex-col justify-start items-center space-y-3 h-full">
                 <h1 className="text-2xl font-extrabold text-center text-white my-5">Locations</h1>
                 <div className="flex flex-col h-full space-y-10">
@@ -106,11 +109,20 @@ export default function Footer() {
                 </div>
             </div>
             </div>
+            <div className=" md:hidden">
+            <footer className="hidden h-20 bg-black md:flex flex-col items-center-safe justify-center">
+      <p className="text-white  text-lg not-first-of-type:font-extrabold">&copy; {new Date().getFullYear()}Waves Swim Academy. All rights reserved.</p>
+      <div className="flex space-x-2">
+        <p className="text-white font-bold">Designed and Developed by </p>
+        <a className='text-blue-700 font-bold' target="_blank" href="https://siddharthanbumani.in/">Siddharth Anbumani</a>
+      </div>
+      </footer>
+            </div>
 
           </div>
         </div>
       </footer>
-      <footer className="h-20 bg-black flex flex-col items-center-safe justify-center">
+      <footer className="hidden h-20 bg-black md:flex flex-col items-center-safe justify-center">
       <p className="text-white  text-lg not-first-of-type:font-extrabold">&copy; {new Date().getFullYear()}Waves Swim Academy. All rights reserved.</p>
       <div className="flex space-x-2">
         <p className="text-white font-bold">Designed and Developed by </p>

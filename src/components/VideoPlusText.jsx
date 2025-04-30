@@ -1,6 +1,6 @@
 export default function VideoPlusText({ img, imgClass = "", text,videoHeight='h-full' }) {
     return (
-      <div className="relative w-full h-[600px] sm:h-[600px] md:h-screen overflow-hidden">
+      <div className="relative h-[200px] w-[400px]   md:w-full md:h-[600px] lg:h-[850px] overflow-hidden">
         <video
           src={`/${img}`}
           className={`w-full ${videoHeight} object-cover ${imgClass}`}

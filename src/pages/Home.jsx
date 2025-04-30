@@ -16,7 +16,6 @@ export default function Home(){
             <VideoPlusText img='swim.mov' 
             text={  
                 <div className="flex flex-col justify-center items-center space-y-5">
-
                     <h1 className="text-5xl font-extrabold shadow-2xl">WE TURN POTENTIAL INTO PERFORMANCE</h1>
                     <p className="text-2xl bg-white/5 py-2 px-5 rounded-2xl italic font-light w-[50%] text-center shadow-2xl">
                         Waves Swim Academy is Chennai’s leading swim training center focused on 

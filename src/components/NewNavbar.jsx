@@ -6,7 +6,6 @@ export default function NewNavbar(){
 
         // <div className="sticky top-0 z-[9999] bg-[url('contact.jpg')] bg-black/30 backdrop-blur-3xl bg-cover bg-center h-16 flex items-center">
         <div className="sticky top-0 z-[9999] bg-[#041E42] bg-cover bg-center backdrop-blur-3xl h-16 flex items-center"> 
-        {/* <div className="sticky top-0 z-[9999] bg-black bg-cover bg-center backdrop-blur-sm h-16 flex items-center"> */}
             <div className="w-4/12 flex justify-start items-center">
             <img src="/logo.PNG" alt="" className="h-14 ml-5"/>
                 <NavLink to='/'><p className=" text-white font-extrabold text-sm mx-5">WAVES SWIM ACADEMY</p></NavLink>
