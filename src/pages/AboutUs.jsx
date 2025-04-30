@@ -10,7 +10,7 @@ export default function AboutUs() {
             img="contact.jpg"
             bg="bg-black/30 backdrop-blur-3xl"
             text='WHO ARE WE?'/>
-            <div>
+            <div className="">
                 <Tabs/>
             </div>
             <Footer/>
