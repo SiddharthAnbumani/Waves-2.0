@@ -12,7 +12,7 @@ export default function NativeTabs(){
           <TabsTrigger value="founders" className='font-extrabold bg-[#041E42] text-white data-[state=active]:text-[#041E42] mx-'>FOUNDERS</TabsTrigger>
           <TabsTrigger value="team" className='font-extrabold bg-[#041E42] text-white data-[state=active]:text-[#041E42]'>MEET THE TEAM</TabsTrigger>
           <TabsTrigger value="policies" className='font-extrabold bg-[#041E42] text-white data-[state=active]:text-[#041E42]'>POLICIES</TabsTrigger>
-          <TabsTrigger value="terms" className='font-extrabold bg-[#041E42] text-white data-[state=active]:text-[#041E42]'>TERMS & CONDITIONS</TabsTrigger>
+          <TabsTrigger value="rules" className='font-extrabold bg-[#041E42] text-white data-[state=active]:text-[#041E42]'>RULES & REGULATIONS</TabsTrigger>
         </TabsList>
         <TabsContent value="about"className=' w-screen text-[#005A9C] rounded-md flex justify-center'>
           <div className="w-[95%] h-[90%]">
@@ -166,40 +166,167 @@ export default function NativeTabs(){
             bannerHeight="h-150"
             text={
               <div className="flex justify-center">
-                <ScrollArea className="h-[600px] w-[85%] bg-gray-100 rounded-md border p-4 my-10">
-                  <h1 className="font-extrabold text-black text-center my-10">OUR POLICIES</h1>
-                <div className="text-lg text-black font-light text-justify px-8 py-4 w-full">
-                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eum ipsum quasi error delectus eos expedita laborum numquam impedit est asperiores amet, tempore perferendis vero odit illo totam. Exercitationem, unde consequatur.
-                    Asperiores reprehenderit quisquam animi tenetur vel mollitia, nam omnis delectus ea autem enim sed molestiae labore. Velit recusandae consequuntur ex, delectus deleniti dolorum quis cumque! Quaerat doloremque eaque aliquid saepe?
-                    Expedita unde numquam error est, voluptas dolores quibusdam molestiae aut laborum voluptate temporibus explicabo excepturi sequi tenetur quos officiis libero accusamus asperiores consequatur. Nemo illum quod aliquam, pariatur ducimus quos.
-                    Quod, distinctio. Iure facere sapiente voluptates sed placeat ut est voluptatibus cupiditate provident delectus expedita, impedit illum nesciunt labore fuga! Neque deserunt itaque cupiditate culpa, quidem a voluptas harum perspiciatis!
-                    Labore, unde similique. Possimus, commodi architecto. Itaque quasi, omnis sint neque enim quia, ipsum mollitia, hic delectus quis reiciendis sit nulla nam aspernatur dolore perferendis quaerat ea? Optio, distinctio voluptatem.
-                    Cum laboriosam natus recusandae fuga, tempora voluptas totam soluta assumenda, unde quasi sequi adipisci facilis ad maiores dicta aut nesciunt placeat saepe eum officia ipsum. Quasi optio magnam omnis harum?
-                    Eos, numquam illo optio commodi molestias sapiente ea dolore porro possimus ratione. Odit asperiores nesciunt reiciendis molestias perferendis error quis porro, recusandae repellat nam autem et laboriosam nobis esse ex?
-                    Incidunt neque corporis aspernatur inventore eaque. Provident aperiam unde sapiente animi expedita blanditiis ea voluptas odio accusamus fugiat placeat saepe atque cupiditate quis maiores explicabo, odit voluptatibus asperiores non veniam!
-                    Repellendus iste distinctio dignissimos ex voluptatem excepturi labore odio quis architecto sunt provident qui animi quisquam voluptatibus adipisci nobis suscipit dolorum in reprehenderit, perferendis quibusdam ipsa laboriosam? Reprehenderit, eius cumque.
-                    Possimus ut omnis officiis fuga maiores eveniet animi magni explicabo voluptatem repellendus! Fugiat impedit nulla non alias, exercitationem odio ullam facilis esse obcaecati numquam? Fuga quae omnis dolore nemo ipsam.
-                    Consequatur quaerat ab optio soluta, laudantium ducimus maxime vero, omnis reprehenderit eius ipsam nisi ad aperiam exercitationem magnam explicabo hic commodi voluptates. Asperiores incidunt omnis error, sint ratione vel dignissimos?
-                    Quia, voluptates laudantium? Odio, sapiente. Esse sequi saepe, quis similique enim labore cupiditate dolorem dicta veritatis ipsa hic unde porro odio aliquid inventore accusantium officiis, quasi eveniet iste eligendi quisquam.
-                    Blanditiis sint nihil consequatur. Quo, iusto quaerat. Dolorum enim quibusdam excepturi eaque magni maxime tempore iste velit tenetur dignissimos, itaque quidem exercitationem id quasi quos eum! Sapiente provident nihil accusantium.
-                    Soluta doloribus blanditiis tenetur adipisci reprehenderit sequi illum sit. Illum rem nesciunt magnam nemo, ipsum dolore ratione! Placeat dolor, molestias, animi fugiat id vitae sint quaerat blanditiis, repellendus deserunt hic.
-                    Molestiae, voluptatum doloribus enim optio repellat minima fuga sapiente! Consequatur minima officiis eligendi inventore iure animi delectus iusto laboriosam explicabo. Sequi cupiditate, tempore eligendi enim deserunt minus nulla corporis tenetur!
-                    Eos, ducimus? Accusantium vitae quos nisi fugit aperiam excepturi amet corrupti aliquam, quasi repellendus doloremque quia minima, delectus sit nobis blanditiis non. Quibusdam non nobis alias aut unde magni maiores.
-                    Maiores quia quam repellendus praesentium similique ipsum. Quasi maiores, atque voluptatibus illum commodi sed sit deserunt labore laboriosam suscipit alias, id sequi, ratione animi quo ducimus libero necessitatibus delectus tempore.
-                    Impedit, ad. Architecto cupiditate libero aliquid iste. Laboriosam aut quasi temporibus? Placeat, dicta iste neque, quo, reprehenderit ipsa labore est aliquid suscipit sapiente odit voluptates magnam. Eius repellendus quisquam debitis?
-                    Sapiente, temporibus fugiat maxime expedita accusantium corporis nostrum, corrupti distinctio voluptates sunt culpa architecto voluptatum harum. Reiciendis ipsum dicta nesciunt ullam repellendus commodi recusandae accusantium quidem, repellat aliquam, et odit!
-                    Rerum, illo excepturi fugiat autem suscipit voluptas porro ipsam doloremque reiciendis quis eligendi, culpa et eum aliquid accusantium sed amet assumenda architecto fugit voluptate impedit alias. Ad sapiente esse illo.
-                    Ad assumenda nihil ducimus labore repellat, unde nesciunt. Id ipsam in dolore facilis quisquam non corporis aperiam amet repudiandae nihil possimus soluta deserunt necessitatibus exercitationem iure corrupti, doloribus minus! Voluptatem.
-                    Vero fugit adipisci culpa beatae obcaecati, ratione corrupti laborum non iusto repudiandae illo unde quasi repellat delectus ad sint laudantium voluptates vel accusantium expedita nobis explicabo illum quos! Omnis, beatae!
-                    Qui eius veniam repudiandae doloribus nesciunt magnam, assumenda cupiditate commodi temporibus repellendus animi nostrum itaque quasi maiores pariatur facere provident nisi! Laboriosam explicabo asperiores laudantium possimus deserunt, ab deleniti? Vero.
-                    Cupiditate eaque nisi debitis reprehenderit dolores eligendi earum id! Expedita nemo aliquam cupiditate voluptas facilis, doloremque quis eum assumenda id magnam? Aspernatur excepturi impedit assumenda eaque. Excepturi, voluptates ut? Praesentium.
-                    Odit et deserunt itaque delectus enim aperiam quibusdam facere, consequuntur deleniti maxime? Eos quisquam assumenda, architecto perspiciatis dicta illo suscipit ex deleniti tempora vel, at magnam unde. Eius, totam vero?
-                    Tenetur, error soluta necessitatibus dolor aperiam laborum molestias officiis earum recusandae magni quaerat commodi quis quidem, quos ab, vel repellat voluptates nesciunt distinctio modi debitis. Error obcaecati excepturi dolore sunt?
-                    Modi, illum? Ipsum exercitationem ea non laudantium deserunt numquam at inventore ratione, tempora deleniti cum? Provident, id cumque architecto ipsam magnam repellat reprehenderit exercitationem molestiae nisi accusantium necessitatibus beatae illo.
-                    Excepturi animi natus sint ipsum corporis mollitia ducimus non exercitationem magnam autem consequuntur illum, voluptatibus iure nihil minus consectetur ab! Officiis at autem odit officia beatae tenetur itaque nihil nesciunt.
-                    Quam, fugit dolorum odio eos aut provident ratione et placeat voluptatem illo aliquid ipsa totam autem tempora? Aliquid assumenda dignissimos commodi eligendi laboriosam cumque excepturi fugiat, praesentium asperiores libero aliquam.
-                    Facere voluptas assumenda ad doloribus fuga, sequi, explicabo illum impedit magnam cum cumque ducimus unde, doloremque nulla ex alias! Consequuntur error architecto esse nostrum minus sint qui sit beatae quo?
+                <ScrollArea className="h-[550px] w-[85%] bg-gray-100 rounded-md border p-4 my-10">
+                  <h1 className="font-extrabold text-black text-center my-5">OUR POLICIES</h1>
+                <div className="text-lg text-black font-light text-justify px-8 py-2 w-full">
+                  <h1 className="text-xl font-semibold text-[#041E42]">
+                    At WAVES SWIM ACADEMY, we are committed to providing high-quality swim lessons 
+                    and ensuring the best experience for our students. To ensure a smooth and 
+                    enjoyable experience for all our members, we kindly ask that you review and adhere 
+                    to the following policies:
+                  </h1>
+
+                  <div className="space-y-10 my-5">
+                    <div>
+                      <ul className="text-[#041E42]">
+                        <li className="text-red-600 font-bold">ATTENDENCE POLICY</li>
+                        <ul className="list-disc">
+                        <li>
+                          Members are required to attend their swim lessons as per the scheduled time. 
+                        </li>
+                        <li>
+                          Missed Classes will not be rescheduled unless they fall under the make-up class policy <b>(see below).</b>
+                        </li>
+                        </ul>
+                      </ul>
+                    </div>
+
+                    <div className="">
+                    <ul className="text-[#041E42]">
+                        <li className="text-red-600 font-bold">
+                          REFUND POLICY
+                        </li>
+                        <ul className="list-disc">
+                          <li>
+                            Fees paid for swim lessons are non-refundable under any circumstances.
+                          </li>
+                          <li>
+                            Once enrolment is confirmed, the payment is final.
+                          </li>
+                        </ul>
+                      </ul>
+                    </div>
+
+                    <div className="">
+                    <ul className="text-[#041E42]">
+                      <li className="text-red-600 font-bold">
+                          TRANSFER POLICY
+                        </li>
+                        <li className="list-disc">
+                          Swim lesson memberships are non-transferable and cannot be reassigned to another individual, including family members.
+                        </li>
+                      </ul>
+                    </div>
+
+
+                    <div className="">
+                    <ul className="text-[#041E42]">
+                      <li className="text-red-600 font-bold">
+                        NON-EXTENSION POLICY
+                        </li>
+                        <ul className="list-disc">
+                          <li>
+                            Swim lessons must be completed within the session's designated period.
+                          </li>
+                          <li>
+                            Extension beyond the session end will not be entertained regardless of missed classes.
+                          </li>
+                        </ul>
+                      </ul>
+                    </div>
+
+
+                    <div className="">
+                      <ul className="text-[#041E42]">
+                        <li className="text-red-600 font-bold">
+                          MEMBERSHIP CANCELLATION POLICY 
+                        </li>
+                        <ul className="list-disc">
+                          <li>
+                            WAVES SWIM ACADEMY reserves the right to cancel or terminate memberships under the following circumstances,
+                          </li>
+                          <li>
+                            Failure to adhere to academy rules, safety guidelines, or code of conduct, any behaviour or situation deemed inappropriate or unsafe by the academy management
+                          </li>
+                        </ul>
+                      </ul>
+                    </div>
+
+                    <div className="">
+                      <ul className="text-[#041E42]">
+                        <li className="text-red-600 font-bold">
+                        ADHERENCE TO POOL RULES POLICY 
+                        </li>
+                        <ul className="list-disc">
+                          <li>
+                            The safety and well-being of all members, guests, and staff are our top priorities. 
+                          </li>
+                          <li>
+                            To ensure a safe, hygienic, and enjoyable swimming environment, all members and guests are required to strictly adhere to the pool usage rules.
+                          </li>
+                        </ul>
+                      </ul>
+                    </div>
+
+                    <div className="">
+                      <ul className="text-[#041E42]">
+                        <li className="text-red-600 font-bold">
+                        FACILITY USE
+                        </li>
+                        <ul className="list-disc">
+                          <li>
+                            Members are requested to use the facilities responsibly and follow all safety guidelines.
+                          </li>
+                          <li>
+                            Swimwear and equipment must meet academy standards for hygiene and safety.
+                          </li>
+                        </ul>
+                      </ul>
+                    </div>
+
+                    <div className="">
+                      <ul className="text-[#041E42]">
+                        <li className="text-red-600 font-bold">
+                          ID REQUIRMENT
+                        </li>
+                        <ul className="list-disc">
+                          <li>
+                          Members must present this card for access to their swim courses and facilities.
+                          </li>
+                          <li>
+                            Members must record their arrival time in the designated TIME-IN and TIME-OUT Register upon entering the academy premises.
+                          </li>
+                        </ul>
+                      </ul>
+                    </div>
+                    </div>
+
+                    <div className="">
+                      <ul className="text-[#041E42]">
+                        <li className="text-red-600 font-bold">
+                        MAKE-UP CLASSES 
+                        </li>
+                        <ul className="list-disc">
+                        <li>
+                          Make-up classes may be provided for lessons missed due to medical emergencies or unavoidable circumstances. (provided with proper documents).
+                        </li>
+                        <li>
+                          Requests for make-up classes must be submitted in advance and are subject to availability and management approval.
+                        </li>
+                        </ul>
+                      </ul>
+                    </div>
+                    
+                    <div className="font-semibold text-lg text-red-700 my-10">
+                      <p className="text-justify">
+                        By enrolling in swim lessons at WAVES SWIM ACADEMY, you agree to comply with these policies. These rules are designed to ensure the best possible experience for all members while maintaining fairness and consistency across our programs.
+                      </p>
+                      <p className="text-center text-[#041E42]">
+                        Thank you for your cooperation, and we look forward to helping you achieve your swimming goals
+                      </p>
+                    </div>
                 </div>
+
             </ScrollArea>
               </div>
             }/>
@@ -348,7 +475,7 @@ export default function NativeTabs(){
             }/>
           </div>
         </TabsContent>
-        <TabsContent value="terms" className='w-screen text-[#005A9C] rounded-md flex justify-center'>
+        <TabsContent value="rules" className='w-screen text-[#005A9C] rounded-md flex justify-center'>
         <div className="w-[90%] h-[90%]">
             <PageBannerPlusText
             img='map.avif'
@@ -357,7 +484,7 @@ export default function NativeTabs(){
             text={
               <div className="flex justify-center">
                 <ScrollArea className="h-[600px] w-[85%] bg-gray-100 rounded-md border p-4 my-10">
-                  <h1 className="font-extrabold text-black text-center my-10">TERMS & CONDITIONS</h1>
+                  <h1 className="font-extrabold text-black text-center my-10">RULES & REGULATIONS</h1>
                 <div className="text-lg text-black text-justify font-light px-6 py-4 w-full">
                     Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eum ipsum quasi error delectus eos expedita laborum numquam impedit est asperiores amet, tempore perferendis vero odit illo totam. Exercitationem, unde consequatur.
                     Asperiores reprehenderit quisquam animi tenetur vel mollitia, nam omnis delectus ea autem enim sed molestiae labore. Velit recusandae consequuntur ex, delectus deleniti dolorum quis cumque! Quaerat doloremque eaque aliquid saepe?

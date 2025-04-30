@@ -91,9 +91,6 @@ export default function ContactUs() {
               </div>
             </div>
 
-
-
-
             {/* Send Us A Message Section */}
             <div className="flex flex-col justify-start my-10 items-center space-y-10 w-[600px]">
               <div className="relative w-full h-[350px] rounded-2xl overflow-hidden shadow-lg">
