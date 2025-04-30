@@ -22,7 +22,7 @@ export default function CompetetiveSwim(){
         <div className="flex flex-col items-center ">
           <div className="flex flex-col items-center w-[80%]">
           <h1 className="text-3xl font-extrabold my-3">HOW GOOD ARE WE?</h1>
-          <p className="text-xl font-light text-justify">At Waves Swim Academy,
+          <p className="text-xl font-light text-justify font-[Libre-Franklin]">At Waves Swim Academy,
               Where others follow the standard, we set it.
               Our swimmers have earned hundreds of medals at major District and State-level 
               championships,establishing us as a dominant force in the competitive swimming in Tamil Nadu.<br/>
@@ -33,7 +33,7 @@ export default function CompetetiveSwim(){
               Today, under her expert guidance, we’ve nurtured a new generation of standout swimmers—
               athletes who’ve shattered State Records and claimed National-level victories, carrying 
               forward our legacy and continuously raising the bar.<br/><br/>
-              <p className="font-bold text-2xl">
+              <p className="font-bold text-2xl font-sans">
               At Waves, we don’t just train swimmers—
               We create champions who lead the way.
               </p>
@@ -53,11 +53,11 @@ export default function CompetetiveSwim(){
             <div className="w-[80%] flex flex-col items-center space-y-2 ">
               <h1 className="text-4xl  font-extrabold my-10">HOW DO WE TURN A BEGINNER INTO AN ATHLETE?</h1>
               <h1 className="text-2xl  font-semibold my-2">WE EXPEXT THE SWIMMERS TO HAVE ALL THE GRADUATION SKILLS OF STROKE SCHOOL TO PURSE</h1>
-              <p className="font-light text-xl">
+              <p className="font-light text-xl font-[Libre-Franklin]">
               At Waves Swim Academy, every champion starts with a single stroke. Our training philosophy is grounded in a 
               progressive, science-backed approach that transforms raw potential into athletic excellence. 
               </p>
-              <p className="font-light text-xl">
+              <p className="font-light text-xl font-[Libre-Franklin]">
               We always value every swimmer—whether they’re just starting out or already dreaming of the podium. 
               Our programs are designed to recognize individual strengths and guide each athlete through a structured 
               journey toward excellence.
@@ -70,7 +70,7 @@ export default function CompetetiveSwim(){
               <p className="text-xl mx-4 my-2 font-semibold text-[#041E42]">
                 THE STAGE OF PRELIMINARY SPORT PREPARATION OBJECTIVES
               </p>
-              <ul className="text-xl list-inside list-disc mx-4">
+              <ul className="text-xl list-inside list-disc mx-4 font-[Libre-Franklin]">
                 <li>
                   Identification of basic morphological criteria (e.g., body type, proportions, height, weight, buoyancy) and some elementary characteristics of motor talent for swimming.
                 </li>
@@ -87,7 +87,7 @@ export default function CompetetiveSwim(){
               <p className="text-xl mx-4 my-2 font-semibold text-[#041E42]">
               THE STAGE OF BASIC TRAINING OBJECTIVES
               </p>
-              <ul className="text-xl list-inside list-disc mx-4">
+              <ul className="text-xl list-inside list-disc mx-4 font-[Libre-Franklin]">
                 <li>
                   Development of general motor abilities and a functional foundation for swimming.
                 </li>
@@ -107,7 +107,7 @@ export default function CompetetiveSwim(){
               <p className="text-xl mx-4 my-2 font-semibold text-[#041E42]">
               THE STAGE OF SPECIALIZATION OBJECTIVES
               </p>
-              <ul className="text-xl list-inside list-disc mx-4">
+              <ul className="text-xl list-inside list-disc mx-4 font-[Libre-Franklin]">
                 <li>
                   To raise the general functional level and prepare for maximal training workloads.
                 </li>
@@ -124,7 +124,7 @@ export default function CompetetiveSwim(){
               <p className="text-xl mx-4 font-semibold text-[#041E42] my-2">
               THE STAGE OF EXCELLENCE OBJECTIVES
               </p>
-              <ul className="text-xl list-inside list-disc mx-4">
+              <ul className="text-xl list-inside list-disc mx-4 font-[Libre-Franklin]">
                 <li>
                   To master individualized training workloads that will result in high performance levels.
                 </li>

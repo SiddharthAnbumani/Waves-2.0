@@ -20,7 +20,7 @@ export default function NativeTabs(){
             img="contact.jpg"
         bg="bg-black/30 backdrop-blur-3xl"
             // bg="bg-[#005A9C]"
-            bannerHeight="h-150"
+            bannerHeight="h-125"
             text={
               <div className="flex flex-col items-center space-y-3">
                 <div className="flex items-end"> 
@@ -39,14 +39,14 @@ export default function NativeTabs(){
                   <p className="text-5xl text-white font-[abel]">S</p>
                   <p  className="mr-3  font-light text-gray-100">wimmer</p>
                 </div>
-                <p className="w-[90%] text-xl font-light">
+                <p className="w-[90%] text-xl font-light font-[Libre-Franklin] text-justify px-4">
                     At Waves Swim Academy, we believe that every great swimmer starts with a confident first stroke. 
                     Our core strength lies in our “Learn to Swim” programs — designed to help children and adults 
                     build water confidence, master foundational techniques, and develop a lifelong love for swimming. 
                     We don’t just teach people how to swim — we nurture discipline, safety, and skill from the very beginning, 
                     laying the groundwork for long-term athletic growth.
                 </p>
-                <p className="w-[90%] text-xl font-light">
+                <p className="w-[90%] text-xl font-light font-[Libre-Franklin] text-justify px-4">
                     With nearly a decade of experience in developing swimmers from beginners to champions, Waves has become 
                     Chennai’s leading center for high-performance aquatic training. Our academy features FINA-standard pools 
                     and a coaching curriculum built on international best practices, ensuring that our athletes are trained 
@@ -68,21 +68,22 @@ export default function NativeTabs(){
             text={
               <div>
                 <div className="flex flex-col items-center justify-center space-y-10">
-                <div className="bg-black/20 backdrop-blur-md rounded-xl w-[80%] text-black py-10 px-5 flex flex-col items-center">
+
+                <div className="bg-gray-50 backdrop-blur-md rounded-xl w-[80%] text-black py-10 px-5 flex flex-col items-center shadow border-2">
                   <h1 className="my-3 text-white/90">
                     OUR FOUNDER  
                   </h1>
-                  <div className="flex flex-col items-center">
+                  <div className="flex flex-col items-center text-black">
                     <img src="anbumani.heic" alt="" className=" h-80"/>
-                    <p className="text-2xl font-semibold my-2 text-white/90"> Mr. ANBUMANI AYYAVOO</p>
+                    <p className="text-2xl font-semibold my-2 text-black"> Mr. ANBUMANI AYYAVOO</p>
                   </div>
-                  <div className=" space-y-3 w-[90%] my-5 text-white/80">
-                  <p className="text-xl text-justify font-light">A visionary dedicated to raising the standards of swimming in Chennai, 
+                  <div className=" space-y-3 w-[90%] my-5 text-black bg-gray-100 py-3 px-5 rounded-md">
+                  <p className="text-lg text-justify font-light font-[Libre-Franklin]">A visionary dedicated to raising the standards of swimming in Chennai, 
                     our academy was born out of a personal journey and a powerful mission. It all began when his daughter emerged 
                     as a National Medalist — a moment of pride that ignited a dream. Witnessing the impact of world-class training 
                     on her success, Mr. Anbumani was inspired to make that same level of excellence accessible to every aspiring swimmer.
                   </p>
-                  <p className="text-justify text-lg font-light">
+                  <p className="text-justify text-lg font-light font-[Libre-Franklin]">
                     Determined to bridge the gap, he established this academy with the goal of delivering American Standards in swimming coaching, 
                     right here in Chennai. Though he is no longer with us to witness the full impact of his vision, his spirit and passion continue
                     to guide everything we do. Today, we proudly carry forward his legacy — committed to nurturing talent and transforming the
@@ -91,20 +92,20 @@ export default function NativeTabs(){
                   </div>
                 </div> 
 
-                <div className="bg-black/20 backdrop-blur-md rounded-xl w-[80%] text-black py-10 px-5 flex flex-col items-center">
+                <div className="bg-gray-50 backdrop-blur-md rounded-xl w-[80%] text-black py-10 px-5 flex flex-col items-center shadow border-2">
                   <h1 className="my-3 text-white/90">
                     Our Co-Founder & Managing Director
                   </h1>
                   <div className="flex flex-col items-center">
                     <img src="sunanthini.jpeg" alt="" className=" h-80"/>
-                    <p className="text-2xl font-semibold my-2 text-white/90"> Mrs. SUNANTHINI ANBUMANI </p>
+                    <p className="text-2xl font-semibold my-2 text-black"> Mrs. SUNANTHINI ANBUMANI </p>
                   </div>
-                  <div className=" space-y-3 w-[90%] my-5 text-white/80">
+                  <div className=" space-y-3 w-[90%] my-5 text-black font-[Libre-Franklin] bg-gray-100 py-3 px-5 rounded-md">
                   <p className="text-xl text-justify font-light">An accomplished architect turned visionary entrepreneur, 
                     Mrs. Sunanthini Anbumani has been the backbone of the academy since day one. As the wife and closest partner of the founder,
                     she walked every step of the journey by his side, sharing not just the vision, but the determination to bring it to life.   
                   </p>
-                  <p className="text-justify text-lg font-light">
+                  <p className="text-justify text-lg font-light font-[Libre-Franklin]">
                   After his absence, it was her unwavering commitment and leadership that propelled the academy forward. She is the reason 
                     we’ve expanded into new branches and reached more aspiring swimmers than ever before. With a sharp eye for excellence and a 
                     heart deeply rooted in the academy’s mission, Mrs. Sunanthini Anbumani continues to carry the vision forward — building on the legacy and 
@@ -113,41 +114,41 @@ export default function NativeTabs(){
                   </div>
                 </div> 
 
-                <div className="bg-black/20 backdrop-blur-md rounded-xl w-[80%] text-black py-10 px-5 flex flex-col items-center">
-                  <h1 className="my-3 text-white/90">
+                <div className="bg-gray-50 backdrop-blur-md rounded-xl w-[80%] text-black py-10 px-5 flex flex-col items-center shadow border-2">
+                  <h1 className="my-3 text-black">
                     OUR MENTOR 
                   </h1>
                   <div className="flex flex-col items-center">
-                    <img src="kaavya.jpeg" alt="" className=" h-80 rounded-2xl"/>
-                    <p className="text-2xl font-semibold my-2 text-white/90 ">KAAVYASHRI ANBUMANI </p>
+                    <img src="kaavya.jpeg" alt="" className=" h-80 rounded-2xl border-2 border-gray-200 shadow"/>
+                    <p className="text-2xl font-semibold my-2 text-black ">KAAVYASHRI ANBUMANI </p>
                   </div>
-                  <div className=" space-y-3 w-[90%] my-5 text-white/80">
-                  <p className="text-xl text-justify font-light">
+                  <div className=" space-y-3 w-[90%] my-5 text-white/80 bg-gray-100 py-3 px-5 rounded-md">
+                  <p className="text-xl text-justify font-light font-[Libre-Franklin] text-black">
                     Kaavyashri Anbumani’s journey in the world of swimming began at just 6 years old. 
                     From 2006 to 2019, she was an elite-level swimmer who proudly represented Tamil Nadu 
                     at national championships for over a decade. Her consistent performance and dedication 
                     earned her invitations to National Team trials—marking her as one of the state’s finest athletes.
                   </p>
-                  <p className="text-justify text-lg font-light">
-                  To further her development, her father, Mr. Anbumani, ensured she received advanced training in the 
-                  United States, where she was exposed to international coaching standards. After retiring from 
-                  her competitive career, Kaavyashri naturally transitioned into mentoring, driven by her passion to 
-                  shape the next generation of swimmers.
+                  <p className="text-justify text-lg font-light font-[Libre-Franklin] text-black">
+                    To further her development, her father, Mr. Anbumani, ensured she received advanced training in the 
+                    United States, where she was exposed to international coaching standards. After retiring from 
+                    her competitive career, Kaavyashri naturally transitioned into mentoring, driven by her passion to 
+                    shape the next generation of swimmers.
                   </p>
-                  <p className="text-justify text-lg font-light">
-                            In 2019, she earned her ASCA (American Swimming Coaches Association) Level 1 to 5 certifications in 
-                            Dubai, becoming a globally accredited coach. Since then, she has worked closely with our U.S.-based 
-                            consultant, staying ahead with the latest in swim science and technique.
-                        </p>
-                        <p className="text-justify text-lg font-light">
-                            Currently, Kaavyashri is pursuing her Ph.D. in Biomedical Engineering, with her research centered around
-                            Neuroscience. Despite her academic pursuits, she continues to lead from the front—regularly coordinating 
-                            with our coaching team and guiding the academy’s training vision as our Mentor.
-                        </p>
-                        <p className="text-justify text-lg font-light">
-                            Her unique blend of international experience, scientific insight, and deep-rooted love for the sport makes 
-                            her an exceptional guide for every swimmer who walks through our doors.
-                        </p>
+                  <p className="text-justify text-lg font-light font-[Libre-Franklin] text-black">
+                    In 2019, she earned her ASCA (American Swimming Coaches Association) Level 1 to 5 certifications in 
+                    Dubai, becoming a globally accredited coach. Since then, she has worked closely with our U.S.-based 
+                    consultant, staying ahead with the latest in swim science and technique.
+                  </p>
+                  <p className="text-justify text-lg font-light font-[Libre-Franklin] text-black">
+                    Currently, Kaavyashri is pursuing her Ph.D. in Biomedical Engineering, with her research centered around
+                    Neuroscience. Despite her academic pursuits, she continues to lead from the front—regularly coordinating 
+                    with our coaching team and guiding the academy’s training vision as our Mentor.
+                  </p>
+                  <p className="text-justify text-lg font-light font-[Libre-Franklin] text-black">
+                    Her unique blend of international experience, scientific insight, and deep-rooted love for the sport makes 
+                    her an exceptional guide for every swimmer who walks through our doors.
+                  </p>
                   </div>
                 </div> 
            
@@ -165,9 +166,9 @@ export default function NativeTabs(){
             bg='bg-white'
             bannerHeight="h-150"
             text={
-              <div className="flex justify-center">
+              <div className="flex justify-center font-[Libre-Franklin]">
                 <ScrollArea className="h-[550px] w-[85%] bg-gray-100 rounded-md border p-4 my-10">
-                  <h1 className="font-extrabold text-black text-center my-5">OUR POLICIES</h1>
+                  <h1 className="font-extrabold text-black text-center my-5 font-sans">OUR POLICIES</h1>
                 <div className="text-lg text-black font-light text-justify px-8 py-2 w-full">
                   <h1 className="text-xl font-semibold text-[#041E42]">
                     At WAVES SWIM ACADEMY, we are committed to providing high-quality swim lessons 
@@ -349,7 +350,7 @@ export default function NativeTabs(){
                   <h1>
                   OUR MENTOR'S QUALIFICATIONS
                   </h1>
-                  <p className="text-lg font-light text-justify">
+                  <p className="text-lg font-light text-justify font-[Libre-Franklin]">
                   In addition to her achievements in the pool, Kaavyashri has distinguished herself in
                    the field of coaching. Beyond her decorated career as an elite athlete, she holds 
                    globally recognized ASCA Level 1 to 5 certifications, combining her competitive 
@@ -372,7 +373,7 @@ export default function NativeTabs(){
                       <h1 className="text-2xl my-2">Enter Name here</h1>
                       <h1 className="text-xl font-semibold">Designation, bracnch</h1>
                     </div>
-                    <p className="text-lg text-justify font-light p-4">
+                    <p className="text-lg text-justify font-light p-4 font-[Libre-Franklin]">
                       Lorem ipsum dolor sit amet consectetur adipisicing elit. At praesentium aut voluptatum. 
                       Ducimus, quam. Rerum optio quae eum, necessitatibus assumenda facere sint saepe, nulla, 
                       magnam soluta aperiam voluptatum. Tempora, explicabo.
@@ -385,7 +386,7 @@ export default function NativeTabs(){
                       <h1 className="text-2xl my-2">Enter Name here</h1>
                       <h1 className="text-xl font-semibold">Designation, bracnch</h1>
                     </div>
-                    <p className="text-lg text-justify font-light p-4">
+                    <p className="text-lg text-justify font-light p-4 font-[Libre-Franklin]">
                       Lorem ipsum dolor sit amet consectetur adipisicing elit. At praesentium aut voluptatum. 
                       Ducimus, quam. Rerum optio quae eum, necessitatibus assumenda facere sint saepe, nulla, 
                       magnam soluta aperiam voluptatum. Tempora, explicabo.
@@ -398,7 +399,7 @@ export default function NativeTabs(){
                       <h1 className="text-2xl my-2">Enter Name here</h1>
                       <h1 className="text-xl font-semibold">Designation, bracnch</h1>
                     </div>
-                    <p className="text-lg text-justify font-light p-4">
+                    <p className="text-lg text-justify font-light p-4 font-[Libre-Franklin]">
                       Lorem ipsum dolor sit amet consectetur adipisicing elit. At praesentium aut voluptatum. 
                       Ducimus, quam. Rerum optio quae eum, necessitatibus assumenda facere sint saepe, nulla, 
                       magnam soluta aperiam voluptatum. Tempora, explicabo.
@@ -411,7 +412,7 @@ export default function NativeTabs(){
                       <h1 className="text-2xl my-2">Enter Name here</h1>
                       <h1 className="text-xl font-semibold">Designation, bracnch</h1>
                     </div>
-                    <p className="text-lg text-justify font-light p-4">
+                    <p className="text-lg text-justify font-light p-4 font-[Libre-Franklin]">
                       Lorem ipsum dolor sit amet consectetur adipisicing elit. At praesentium aut voluptatum. 
                       Ducimus, quam. Rerum optio quae eum, necessitatibus assumenda facere sint saepe, nulla, 
                       magnam soluta aperiam voluptatum. Tempora, explicabo.
@@ -424,7 +425,20 @@ export default function NativeTabs(){
                       <h1 className="text-2xl my-2">Enter Name here</h1>
                       <h1 className="text-xl font-semibold">Designation, bracnch</h1>
                     </div>
-                    <p className="text-lg text-justify font-light p-4">
+                    <p className="text-lg text-justify font-light p-4 font-[Libre-Franklin]">
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit. At praesentium aut voluptatum. 
+                      Ducimus, quam. Rerum optio quae eum, necessitatibus assumenda facere sint saepe, nulla, 
+                      magnam soluta aperiam voluptatum. Tempora, explicabo.
+                      labore itaque et rem reprehenderit, nisi vitae suscipit enim a.
+                    </p>
+                  </div>
+                  <div className="bg-black/40 backdrop-blur-md w-[500px] py-5 px-2 rounded-xl">
+                    <div className="flex flex-col items-center mt-5 p-5 font-[Libre-Franklin]">
+                      <img src="profile.avif" alt="" className="h-60 rounded-md" />
+                      <h1 className="text-2xl my-2">Enter Name here</h1>
+                      <h1 className="text-xl font-semibold">Designation, bracnch</h1>
+                    </div>
+                    <p className="text-lg text-justify font-light p-4 font-[Libre-Franklin]">
                       Lorem ipsum dolor sit amet consectetur adipisicing elit. At praesentium aut voluptatum. 
                       Ducimus, quam. Rerum optio quae eum, necessitatibus assumenda facere sint saepe, nulla, 
                       magnam soluta aperiam voluptatum. Tempora, explicabo.
@@ -437,7 +451,7 @@ export default function NativeTabs(){
                       <h1 className="text-2xl my-2">Enter Name here</h1>
                       <h1 className="text-xl font-semibold">Designation, bracnch</h1>
                     </div>
-                    <p className="text-lg text-justify font-light p-4">
+                    <p className="text-lg text-justify font-light p-4 font-[Libre-Franklin]">
                       Lorem ipsum dolor sit amet consectetur adipisicing elit. At praesentium aut voluptatum. 
                       Ducimus, quam. Rerum optio quae eum, necessitatibus assumenda facere sint saepe, nulla, 
                       magnam soluta aperiam voluptatum. Tempora, explicabo.
@@ -450,20 +464,7 @@ export default function NativeTabs(){
                       <h1 className="text-2xl my-2">Enter Name here</h1>
                       <h1 className="text-xl font-semibold">Designation, bracnch</h1>
                     </div>
-                    <p className="text-lg text-justify font-light p-4">
-                      Lorem ipsum dolor sit amet consectetur adipisicing elit. At praesentium aut voluptatum. 
-                      Ducimus, quam. Rerum optio quae eum, necessitatibus assumenda facere sint saepe, nulla, 
-                      magnam soluta aperiam voluptatum. Tempora, explicabo.
-                      labore itaque et rem reprehenderit, nisi vitae suscipit enim a.
-                    </p>
-                  </div>
-                  <div className="bg-black/40 backdrop-blur-md w-[500px] py-5 px-2 rounded-xl">
-                    <div className="flex flex-col items-center mt-5 p-5">
-                      <img src="profile.avif" alt="" className="h-60 rounded-md" />
-                      <h1 className="text-2xl my-2">Enter Name here</h1>
-                      <h1 className="text-xl font-semibold">Designation, bracnch</h1>
-                    </div>
-                    <p className="text-lg text-justify font-light p-4">
+                    <p className="text-lg text-justify font-light p-4 font-[Libre-Franklin]">
                       Lorem ipsum dolor sit amet consectetur adipisicing elit. At praesentium aut voluptatum. 
                       Ducimus, quam. Rerum optio quae eum, necessitatibus assumenda facere sint saepe, nulla, 
                       magnam soluta aperiam voluptatum. Tempora, explicabo.
@@ -484,9 +485,9 @@ export default function NativeTabs(){
             bg='bg-white'
             bannerHeight="h-150"
             text={
-              <div className="flex justify-center">
+              <div className="flex justify-center font-[Libre-Franklin]">
                 <ScrollArea className="h-[600px] w-[85%] bg-gray-100 rounded-md border p-4 my-10">
-                  <h1 className="font-extrabold text-black text-center my-5">RULES & REGULATIONS</h1>
+                  <h1 className="font-extrabold text-black text-center my-5 font-sans ">RULES & REGULATIONS</h1>
                 <div className="text-lg text-black text-justify font-light px-6 py-4 w-full">
                   <ul className="list-decimal text-justify px-4 space-y-3">
                     <li className="font-semibold text-red-500">

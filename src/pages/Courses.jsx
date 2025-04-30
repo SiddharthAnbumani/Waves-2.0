@@ -31,14 +31,14 @@ export default function Courses(){
             <div className="space-y-5">
               <div className=" flex flex-col items-center mb-20">
               <h1 className="text-5xl text-center mt-10 mb-5 shadow-2xl">PROGRAM CURRICULUM</h1>
-              <p className="font-light text-xl w-[90%] text-center">
+              <p className="font-light text-xl w-[90%] px-4 font-[Libre-Franklin] text-justify">
                 At Waves Swim Academy, we believe every swimmer is unique—and so is their 
                 journey. If your child already knows how to swim, they are welcome to enroll
                  directly into the course that best matches their current skill level. There 
                  is no requirement to start from the beginning if they are ready for more advanced 
                  instruction. Each of our courses includes a set of clearly defined graduation skills
               </p>
-              <p className="font-semibold text-lg w-[90%] text-center my-5 ">
+              <p className="font-semibold text-lg w-[90%] text-center px-4 my-5 ">
               To continue with competitive swimming, it is essential that the swimmer has
                successfully completed the graduation requirements from the relevant 
                foundation and advanced levels
@@ -52,8 +52,8 @@ export default function Courses(){
             <HorizontalInfoBanner
             title='LEARN TO SWIM'
             navLink="/courses/learn-to-swim"
-            subHeading='Period : 14 days'
-            subColor="text-white"
+            subHeading='Period : 2 weeks'
+            subColor="text-black"
             titleColor="text-green-600"
             img='lts.avif'
             text='In this class, children will learn how to swim the strokes of Freestyle
@@ -68,7 +68,7 @@ export default function Courses(){
               <h1 className="text-3xl text-center my-10 mt-20">OUR FOUNDATION PROGRAMS</h1>
             <HorizontalInfoBanner
             title='Level 1'
-            subHeading="Period - 2 Weeks"
+            subHeading="Period - 1 Month"
             navLink="/courses/beginner"
             titleColor="text-yellow-600"
             img='lts.avif'
@@ -78,7 +78,7 @@ export default function Courses(){
              and be introduced to Backstroke fundamentals — two of the most essential"
             btnText="Read more.."
             border=""
-            btnBgTextColor="bg-yellow-600"
+            btnBgTextColor="bg-yellow-500"
             />
 
             <HorizontalInfoBanner
@@ -91,7 +91,7 @@ export default function Courses(){
             on mastering both Freestyle with side breathing and Backstroke, through structured, drill-based 
             sessions. From breath control and streamline kicking to roll turns and block starts, swimmers will
              build a solid technical foundation'
-            btnBgTextColor="bg-orange-600"
+            btnBgTextColor="bg-orange-500"
             btnText="Read more.."
             border=""
             />
@@ -106,7 +106,7 @@ export default function Courses(){
             a focus on technique refinement and stroke development, swimmers will perfect their
             form and improve efficiency through dedicated drills.'
             btnText="Read more.."
-            btnBgTextColor="bg-red-600"
+            btnBgTextColor="bg-red-500"
             border=""
             />
             <HorizontalInfoBanner
@@ -121,7 +121,7 @@ export default function Courses(){
             a deep understanding of the fundamentals of competitive swimming while instilling a passion
             for the sport through engaging, fun lessons.'
             btnText="Read more.."
-            btnBgTextColor="bg-violet-700"
+            btnBgTextColor="bg-violet-600"
             border=""
             />
 
