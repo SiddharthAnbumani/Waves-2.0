@@ -1,4 +1,4 @@
-export default function PageBannerPlusText({text,img,imgClass,bannerHeight = 'h-50', bg='bg-black/40', textSize='text-3xl'}) {
+export default function PageBannerPlusText({text,img,imgClass,bannerHeight = 'h-40 md:h-50', bg='bg-black/40', textSize='text-2xl md:text-3xl'}) {
     return (
       <div className="relative w-full">
         <img src={`/${img}`} className={`w-full object-cover ${imgClass} ${bannerHeight} `}/>
