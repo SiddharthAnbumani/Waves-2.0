@@ -343,7 +343,7 @@ export default function NativeTabs(){
             img='contact.jpg'
         bg="bg-black/30 backdrop-blur-3xl"
           
-            bannerHeight="h-825"
+            bannerHeight="h-850"
             text={
               <div className="flex flex-col justify-center items-center">
                 <div className="flex flex-col items-center w-[80%] my-10 space-y-4"> 
@@ -357,11 +357,12 @@ export default function NativeTabs(){
                    experience with world-class coaching standards to mentor and inspire the next generation 
                    of swimmers
                   </p>
-                  <div className="grid grid-cols-4 space-x-2">
-                    <img src="learn.jpeg" alt="" className="h-45" />
-                    <img src="learn.jpeg" alt="" className="h-45" />
-                    <img src="learn.jpeg" alt="" className="h-45" />
-                    <img src="learn.jpeg" alt="" className="h-45" />
+                  {/* <div className="grid grid-cols-4 space-x-2"> */}
+                  <div className="flex justify-center space-x-10">
+                    <img src="asca_3.png" alt="" className="h-85" />
+                    <img src="asca_5.png" alt="" className="h-85" />
+                    {/* <img src="learn.jpeg" alt="" className="h-45" /> */}
+                    {/* <img src="learn.jpeg" alt="" className="h-45" /> */}
                   </div>
                 </div>
                 <h1 className="font-bold text-3xl my-10 pt-20">OUR COACHES, TRAINERS AND THEIR QUALIFICATIONS</h1>
