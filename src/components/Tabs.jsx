@@ -10,7 +10,7 @@ export default function NativeTabs(){
         <TabsList className='h-15 w-full my-2'>
           <TabsTrigger value="about" className='font-extrabold bg-[#041E42] text-white data-[state=active]:text-[#041E42] mx-'>ABOUT</TabsTrigger>
           <TabsTrigger value="founders" className='font-extrabold bg-[#041E42] text-white data-[state=active]:text-[#041E42] mx-'>FOUNDERS</TabsTrigger>
-          <TabsTrigger value="team" className='font-extrabold bg-[#041E42] text-white data-[state=active]:text-[#041E42]'>MEET THE TEAM</TabsTrigger>
+          {/* <TabsTrigger value="team" className='font-extrabold bg-[#041E42] text-white data-[state=active]:text-[#041E42]'>MEET THE TEAM</TabsTrigger> */}
           <TabsTrigger value="policies" className='font-extrabold bg-[#041E42] text-white data-[state=active]:text-[#041E42]'>POLICIES</TabsTrigger>
           <TabsTrigger value="rules" className='font-extrabold bg-[#041E42] text-white data-[state=active]:text-[#041E42]'>RULES & REGULATIONS</TabsTrigger>
         </TabsList>
@@ -64,7 +64,7 @@ export default function NativeTabs(){
             img='contact.jpg'
         bg="bg-black/30 backdrop-blur-3xl"
 
-            bannerHeight="h-700"
+            bannerHeight="h-800"
             text={
               <div>
                 <div className="flex flex-col items-center justify-center space-y-10">
@@ -149,6 +149,16 @@ export default function NativeTabs(){
                     Her unique blend of international experience, scientific insight, and deep-rooted love for the sport makes 
                     her an exceptional guide for every swimmer who walks through our doors.
                   </p>
+
+                  <div className="flex flex-col items-center my-5">
+                  <h1 className="text-black my-3 font-semibold text-2xl">
+                  OUR MENTOR'S QUALIFICATIONS
+                  </h1>
+                  <div className="flex justify-center space-x-10">
+                    <img src="asca_3.png" alt="" className="h-65 border-2 rounded-md shadow" />
+                    <img src="asca_5.png" alt="" className="h-65 border-2 rounded-md shadow" />
+                  </div>
+                  </div>
                   </div>
                 </div> 
            
@@ -361,8 +371,6 @@ export default function NativeTabs(){
                   <div className="flex justify-center space-x-10">
                     <img src="asca_3.png" alt="" className="h-85" />
                     <img src="asca_5.png" alt="" className="h-85" />
-                    {/* <img src="learn.jpeg" alt="" className="h-45" /> */}
-                    {/* <img src="learn.jpeg" alt="" className="h-45" /> */}
                   </div>
                 </div>
                 <h1 className="font-bold text-3xl my-10 pt-20">OUR COACHES, TRAINERS AND THEIR QUALIFICATIONS</h1>
