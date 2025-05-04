@@ -139,9 +139,9 @@ export default function ContactUs() {
               </div>
 
               {/* Map */}
-              {/* <div className="h-[300px] w-full">
+              <div className="hidden md:flex h-[300px] w-full">
                 <Map />
-              </div> */}
+              </div>
             </div>
           </div>
         }
