@@ -1,10 +1,7 @@
-export default function Canvas(){
+import { NavLink } from "react-router-dom";
+
+export default function Canvas() {
   return (
-   <div className="h-screen w-screen justify-center items-center">
-    <p className="text-9xl font-extrabold" >
-
-    </p>
-   </div>
-
-  )
+   <div className=""></div>
+  );
 }
